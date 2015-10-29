@@ -7548,3 +7548,15 @@ table .checkbox input[type="checkbox"] {
     width: 100%;
   }
 }
+@media (max-width: 1199px) {
+  .main-container.container {
+    padding: 0;
+    width: 100%;
+  }
+  .main-container.container .row {
+    margin: 0;
+  }
+  .main-container.container .row section.col-sm-12 {
+    padding: 0;
+  }
+}
