@@ -7333,6 +7333,72 @@ table .checkbox input[type="checkbox"] {
 .alert-danger a {
   color: #843534;
 }
+.group-banner-region {
+  position: relative;
+}
+.group-banner-region .group-banner-text {
+  position: absolute;
+  color: #fff;
+  z-index: 10;
+  top: 23%;
+  text-align: center;
+  width: 100%;
+}
+.group-banner-region .group-banner-text .banner-primary-text {
+  font-family: 'chelsearegular';
+  font-size: 120px;
+  text-transform: uppercase;
+}
+@media (max-width: 1199px) {
+  .group-banner-region .group-banner-text .banner-primary-text {
+    font-size: 80px;
+  }
+}
+@media (max-width: 991px) {
+  .group-banner-region .group-banner-text .banner-primary-text {
+    font-size: 70px;
+  }
+}
+@media (max-width: 767px) {
+  .group-banner-region .group-banner-text .banner-primary-text {
+    font-size: 55px;
+  }
+}
+@media (max-width: 480px) {
+  .group-banner-region .group-banner-text .banner-primary-text {
+    font-size: 35px;
+  }
+}
+.group-banner-region .group-banner-text .banner-secondary-text {
+  font-family: 'brannboll_smalregular';
+  font-size: 60px;
+  display: block;
+  text-align: center;
+}
+@media (max-width: 1199px) {
+  .group-banner-region .group-banner-text .banner-secondary-text {
+    font-size: 40px;
+  }
+}
+@media (max-width: 991px) {
+  .group-banner-region .group-banner-text .banner-secondary-text {
+    font-size: 30px;
+  }
+}
+@media (max-width: 767px) {
+  .group-banner-region .group-banner-text .banner-secondary-text {
+    font-size: 15px;
+  }
+}
+@media (max-width: 480px) {
+  .group-banner-region .group-banner-text .banner-secondary-text {
+    font-size: 10px;
+  }
+}
+.group-banner-region .flex-control-nav.flex-control-paging {
+  top: 63%;
+  z-index: 10;
+}
 @font-face {
   font-family: 'chelsearegular';
   src: url('../less/fonts/chelsea/chelsea-webfont.eot');
@@ -7416,4 +7482,55 @@ table .checkbox input[type="checkbox"] {
   src: url('../less/fonts/dosis/dosis-semibold-webfont.eot?#iefix') format('embedded-opentype'), url('../less/fonts/dosis/dosis-semibold-webfont.woff2') format('woff2'), url('../less/fonts/dosis/dosis-semibold-webfont.woff') format('woff'), url('../less/fonts/dosis/dosis-semibold-webfont.ttf') format('truetype'), url('../less/fonts/dosis/dosis-semibold-webfont.svg#dosissemibold') format('svg');
   font-weight: normal;
   font-style: normal;
+}
+.mixin-banner-primary-text {
+  font-family: 'chelsearegular';
+  font-size: 120px;
+  text-transform: uppercase;
+}
+@media (max-width: 1199px) {
+  .mixin-banner-primary-text {
+    font-size: 80px;
+  }
+}
+@media (max-width: 991px) {
+  .mixin-banner-primary-text {
+    font-size: 70px;
+  }
+}
+@media (max-width: 767px) {
+  .mixin-banner-primary-text {
+    font-size: 55px;
+  }
+}
+@media (max-width: 480px) {
+  .mixin-banner-primary-text {
+    font-size: 35px;
+  }
+}
+.mixin-banner-secondary-text {
+  font-family: 'brannboll_smalregular';
+  font-size: 60px;
+  display: block;
+  text-align: center;
+}
+@media (max-width: 1199px) {
+  .mixin-banner-secondary-text {
+    font-size: 40px;
+  }
+}
+@media (max-width: 991px) {
+  .mixin-banner-secondary-text {
+    font-size: 30px;
+  }
+}
+@media (max-width: 767px) {
+  .mixin-banner-secondary-text {
+    font-size: 15px;
+  }
+}
+@media (max-width: 480px) {
+  .mixin-banner-secondary-text {
+    font-size: 10px;
+  }
 }

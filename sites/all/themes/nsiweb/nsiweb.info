@@ -66,3 +66,12 @@ stylesheets[all][] = css/style.css
 ; Method 2 uses BootstrapCDN, the only thing you might need to provide here
 ; is overrides to Bootstrap theme settings. Copy them here from the base theme
 ; to override.
+
+;;;;;;;;;;;;;;;;;;;;;
+;; Breakpoints
+;;;;;;;;;;;;;;;;;;;;;
+
+breakpoints[xs] = (max-width: 767px)
+breakpoints[sm] = (min-width: 768px) and (max-width: 991px)
+breakpoints[md] = (min-width: 992px) and (max-width: 1199px)
+breakpoints[lg] = (min-width: 1200px)
