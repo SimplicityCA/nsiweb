@@ -7336,6 +7336,11 @@ table .checkbox input[type="checkbox"] {
 .group-banner-region {
   position: relative;
 }
+@media (min-width: 1200px) {
+  .group-banner-region {
+    margin: 0 -15px;
+  }
+}
 .group-banner-region .group-banner-text {
   position: absolute;
   color: #fff;
@@ -7398,6 +7403,9 @@ table .checkbox input[type="checkbox"] {
 .group-banner-region .flex-control-nav.flex-control-paging {
   top: 63%;
   z-index: 10;
+}
+.group-banner-region .flexslider {
+  border: none;
 }
 @font-face {
   font-family: 'chelsearegular';
@@ -7532,5 +7540,11 @@ table .checkbox input[type="checkbox"] {
 @media (max-width: 480px) {
   .mixin-banner-secondary-text {
     font-size: 10px;
+  }
+}
+@media (min-width: 1200px) {
+  .main-container.container {
+    margin: 0;
+    width: 100%;
   }
 }

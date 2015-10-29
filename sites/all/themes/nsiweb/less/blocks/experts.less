@@ -1,5 +1,8 @@
 .group-banner-region {
 	position: relative;
+  @media (min-width: @screen-lg-min) {
+    margin: 0 -15px;
+  }
 	.group-banner-text {
     position: absolute;
     color: #fff;
@@ -17,5 +20,8 @@
   .flex-control-nav.flex-control-paging {
     top: 63%;
     z-index: 10;
+  }
+  .flexslider {
+    border: none;
   }
 }
