@@ -33,3 +33,40 @@
     font-size: 10px;
   }
 }
+
+.mixin-region-primary-text {
+  font-family: @font-family-chelsea;
+  font-size: 70px;
+  text-transform: uppercase; 
+  text-align: center;
+  @media (max-width: @screen-md-max) {
+    font-size: 60px;
+  }
+  @media (max-width: @screen-sm-max) {
+    font-size: 45px;
+  }
+  @media (max-width: @screen-xs-max) {
+    font-size: 35px;
+  }
+  @media (max-width: @screen-phone) {
+    font-size: 30px;
+  }
+}
+.mixin-region-secondary-text {
+  font-family: @font-family-brannbollsmal;
+  font-size: 30px;
+  display: block;
+  text-align: center;
+  @media (max-width: @screen-md-max) {
+    font-size: 25px;
+  }
+  @media (max-width: @screen-sm-max) {
+    font-size: 20px;
+  }
+  @media (max-width: @screen-xs-max) {
+    font-size: 18px;
+  }
+  @media (max-width: @screen-phone) {
+    font-size: 16px;
+  }
+}
