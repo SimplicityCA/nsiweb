@@ -1,1 +1,35 @@
-// Insert your styling here.
+header#navbar {
+	margin-bottom: 0;
+	border: none;
+	background-color: #000;
+  a.logo.navbar-btn {
+    position: absolute;
+    img {
+      width: 200px;
+      height: auto;
+      z-index: 200;
+      position: relative;
+    }
+  }
+  .navbar-collapse{
+    background-color: #000;
+    ul.navbar-nav {
+      float: none;
+      text-align: center;
+      > li { 
+        float: none;
+        display: inline-block;
+        a {
+          background-color: #000;
+          color: #fff;
+          &:hover {
+            color: #0F9146;
+          }
+        }
+      }
+    }
+  }
+}
+body.navbar-is-fixed-top {
+	padding-top: 49px !important;
+}

@@ -7333,6 +7333,44 @@ table .checkbox input[type="checkbox"] {
 .alert-danger a {
   color: #843534;
 }
+header#navbar {
+  margin-bottom: 0;
+  border: none;
+  background-color: #000;
+}
+header#navbar a.logo.navbar-btn {
+  position: absolute;
+}
+header#navbar a.logo.navbar-btn img {
+  width: 200px;
+  height: auto;
+  z-index: 200;
+  position: relative;
+}
+header#navbar .navbar-collapse {
+  background-color: #000;
+}
+header#navbar .navbar-collapse ul.navbar-nav {
+  float: none;
+  text-align: center;
+}
+header#navbar .navbar-collapse ul.navbar-nav > li {
+  float: none;
+  display: inline-block;
+}
+header#navbar .navbar-collapse ul.navbar-nav > li a {
+  background-color: #000;
+  color: #fff;
+}
+header#navbar .navbar-collapse ul.navbar-nav > li a:hover {
+  color: #0F9146;
+}
+body.navbar-is-fixed-top {
+  padding-top: 49px !important;
+}
+body {
+  background-color: #000;
+}
 .group-banner-region {
   position: relative;
 }
