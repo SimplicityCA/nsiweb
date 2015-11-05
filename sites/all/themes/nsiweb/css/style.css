@@ -7739,6 +7739,7 @@ body {
 @media (min-width: 1200px) {
   .group-second-region,
   .group-third-region,
+  .group-third-region-b,
   .group-fourth-region,
   .group-fifth-region,
   .group-sixth-region,
@@ -7749,6 +7750,7 @@ body {
 }
 .group-second-region .title-primary-text,
 .group-third-region .title-primary-text,
+.group-third-region-b .title-primary-text,
 .group-fourth-region .title-primary-text,
 .group-fifth-region .title-primary-text,
 .group-sixth-region .title-primary-text,
@@ -7762,6 +7764,7 @@ body {
 @media (max-width: 1199px) {
   .group-second-region .title-primary-text,
   .group-third-region .title-primary-text,
+  .group-third-region-b .title-primary-text,
   .group-fourth-region .title-primary-text,
   .group-fifth-region .title-primary-text,
   .group-sixth-region .title-primary-text,
@@ -7773,6 +7776,7 @@ body {
 @media (max-width: 991px) {
   .group-second-region .title-primary-text,
   .group-third-region .title-primary-text,
+  .group-third-region-b .title-primary-text,
   .group-fourth-region .title-primary-text,
   .group-fifth-region .title-primary-text,
   .group-sixth-region .title-primary-text,
@@ -7784,6 +7788,7 @@ body {
 @media (max-width: 767px) {
   .group-second-region .title-primary-text,
   .group-third-region .title-primary-text,
+  .group-third-region-b .title-primary-text,
   .group-fourth-region .title-primary-text,
   .group-fifth-region .title-primary-text,
   .group-sixth-region .title-primary-text,
@@ -7795,6 +7800,7 @@ body {
 @media (max-width: 480px) {
   .group-second-region .title-primary-text,
   .group-third-region .title-primary-text,
+  .group-third-region-b .title-primary-text,
   .group-fourth-region .title-primary-text,
   .group-fifth-region .title-primary-text,
   .group-sixth-region .title-primary-text,
@@ -7805,6 +7811,7 @@ body {
 }
 .group-second-region .title-secondary-text,
 .group-third-region .title-secondary-text,
+.group-third-region-b .title-secondary-text,
 .group-fourth-region .title-secondary-text,
 .group-fifth-region .title-secondary-text,
 .group-sixth-region .title-secondary-text,
@@ -7818,6 +7825,7 @@ body {
 @media (max-width: 1199px) {
   .group-second-region .title-secondary-text,
   .group-third-region .title-secondary-text,
+  .group-third-region-b .title-secondary-text,
   .group-fourth-region .title-secondary-text,
   .group-fifth-region .title-secondary-text,
   .group-sixth-region .title-secondary-text,
@@ -7829,6 +7837,7 @@ body {
 @media (max-width: 991px) {
   .group-second-region .title-secondary-text,
   .group-third-region .title-secondary-text,
+  .group-third-region-b .title-secondary-text,
   .group-fourth-region .title-secondary-text,
   .group-fifth-region .title-secondary-text,
   .group-sixth-region .title-secondary-text,
@@ -7840,6 +7849,7 @@ body {
 @media (max-width: 767px) {
   .group-second-region .title-secondary-text,
   .group-third-region .title-secondary-text,
+  .group-third-region-b .title-secondary-text,
   .group-fourth-region .title-secondary-text,
   .group-fifth-region .title-secondary-text,
   .group-sixth-region .title-secondary-text,
@@ -7851,6 +7861,7 @@ body {
 @media (max-width: 480px) {
   .group-second-region .title-secondary-text,
   .group-third-region .title-secondary-text,
+  .group-third-region-b .title-secondary-text,
   .group-fourth-region .title-secondary-text,
   .group-fifth-region .title-secondary-text,
   .group-sixth-region .title-secondary-text,
