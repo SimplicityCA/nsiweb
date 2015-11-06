@@ -7397,6 +7397,55 @@ body.navbar-is-fixed-top {
 body {
   background-color: #fff;
 }
+#catering-empresas {
+  margin-top: -20px;
+}
+#catering-empresas img,
+#catering-eventos img {
+  border: 10px solid #0F9146;
+  border-radius: 50%;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  max-width: 100%;
+  height: auto;
+}
+@media (max-width: 767px) {
+  #catering-empresas img,
+  #catering-eventos img {
+    border-width: 5px;
+  }
+}
+#catering-empresas .node-menus-catering.view-mode-full,
+#catering-eventos .node-menus-catering.view-mode-full {
+  margin-bottom: 20px;
+  padding: 0 20px;
+}
+#catering-empresas .node-menus-catering.view-mode-full .group-left,
+#catering-eventos .node-menus-catering.view-mode-full .group-left {
+  position: relative;
+  float: left;
+  width: 58.33333333%;
+  min-height: 1px;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+#catering-empresas .node-menus-catering.view-mode-full .group-right,
+#catering-eventos .node-menus-catering.view-mode-full .group-right {
+  position: relative;
+  float: left;
+  width: 41.66666667%;
+  min-height: 1px;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+#catering-empresas .node-menus-catering.view-mode-full:nth-child(odd) .group-left,
+#catering-eventos .node-menus-catering.view-mode-full:nth-child(odd) .group-left {
+  float: right;
+}
+#catering-empresas .catering-menu-description,
+#catering-eventos .catering-menu-description {
+  color: #0F9146;
+}
 .group-banner-region {
   position: relative;
 }
@@ -7488,11 +7537,6 @@ body {
   #alimentacion {
     min-height: 900px;
   }
-}
-#alimentacion .title-secondary-text {
-  color: #0F9146;
-  margin-top: -5px;
-  margin-bottom: 20px;
 }
 #alimentacion .node-feeding.view-mode-full {
   position: relative;
@@ -7697,6 +7741,9 @@ body {
   font-size: 30px;
   display: block;
   text-align: center;
+  color: #0F9146;
+  margin-top: -5px;
+  margin-bottom: 20px;
 }
 @media (max-width: 1199px) {
   .mixin-region-secondary-text {
@@ -7821,6 +7868,9 @@ body {
   font-size: 30px;
   display: block;
   text-align: center;
+  color: #0F9146;
+  margin-top: -5px;
+  margin-bottom: 20px;
 }
 @media (max-width: 1199px) {
   .group-second-region .title-secondary-text,
