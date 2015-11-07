@@ -7446,6 +7446,18 @@ body {
 #catering-eventos .catering-menu-description {
   color: #0F9146;
 }
+@media (max-width: 767px) {
+  #catering-empresas .catering-menu-description,
+  #catering-eventos .catering-menu-description {
+    font-size: 12px;
+  }
+}
+@media (max-width: 767px) {
+  #catering-empresas .catering-menu-title,
+  #catering-eventos .catering-menu-title {
+    font-size: 22px;
+  }
+}
 .group-banner-region {
   position: relative;
 }
@@ -7574,6 +7586,71 @@ body {
   min-height: 1px;
   padding-left: 15px;
   padding-right: 15px;
+}
+#clientes {
+  background: url('../assets/clientes.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  float: left;
+  width: 100%;
+}
+@media (max-width: 767px) {
+  #clientes {
+    background-position: 90%;
+    min-height: 1000px;
+  }
+}
+#clientes .client-logos {
+  margin-left: 50%;
+  position: relative;
+  min-height: 1px;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+@media (min-width: 768px) {
+  #clientes .client-logos {
+    float: left;
+    width: 41.66666667%;
+  }
+}
+@media (max-width: 767px) {
+  #clientes .client-logos {
+    margin-left: 0;
+  }
+}
+#clientes .node-clientes.view-mode-full {
+  position: relative;
+  min-height: 1px;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin: 20px 0 20px 0;
+  min-height: 100px;
+  text-align: center;
+}
+@media (min-width: 768px) {
+  #clientes .node-clientes.view-mode-full {
+    float: left;
+    width: 50%;
+  }
+}
+#clientes .node-clientes.view-mode-full img {
+  max-width: 100%;
+  height: auto;
+}
+@media (max-width: 900px) {
+  #clientes .node-clientes.view-mode-full {
+    min-height: 70px;
+  }
+}
+@media (max-width: 850px) {
+  #clientes .node-clientes.view-mode-full {
+    min-height: 64px;
+  }
+}
+.title-primary-text.clients {
+  font-family: 'brannboll_smalregular';
+  color: #E42127;
+  text-transform: none;
 }
 @font-face {
   font-family: 'chelsearegular';
@@ -7795,75 +7872,33 @@ body {
     margin: 0 -15px 0 -16px;
   }
 }
-.group-second-region .title-primary-text,
-.group-third-region .title-primary-text,
-.group-third-region-b .title-primary-text,
-.group-fourth-region .title-primary-text,
-.group-fifth-region .title-primary-text,
-.group-sixth-region .title-primary-text,
-.group-seventh-region .title-primary-text,
-.group-eighth-region .title-primary-text {
+.title-primary-text {
   font-family: 'chelsearegular';
   font-size: 70px;
   text-transform: uppercase;
   text-align: center;
 }
 @media (max-width: 1199px) {
-  .group-second-region .title-primary-text,
-  .group-third-region .title-primary-text,
-  .group-third-region-b .title-primary-text,
-  .group-fourth-region .title-primary-text,
-  .group-fifth-region .title-primary-text,
-  .group-sixth-region .title-primary-text,
-  .group-seventh-region .title-primary-text,
-  .group-eighth-region .title-primary-text {
+  .title-primary-text {
     font-size: 60px;
   }
 }
 @media (max-width: 991px) {
-  .group-second-region .title-primary-text,
-  .group-third-region .title-primary-text,
-  .group-third-region-b .title-primary-text,
-  .group-fourth-region .title-primary-text,
-  .group-fifth-region .title-primary-text,
-  .group-sixth-region .title-primary-text,
-  .group-seventh-region .title-primary-text,
-  .group-eighth-region .title-primary-text {
+  .title-primary-text {
     font-size: 45px;
   }
 }
 @media (max-width: 767px) {
-  .group-second-region .title-primary-text,
-  .group-third-region .title-primary-text,
-  .group-third-region-b .title-primary-text,
-  .group-fourth-region .title-primary-text,
-  .group-fifth-region .title-primary-text,
-  .group-sixth-region .title-primary-text,
-  .group-seventh-region .title-primary-text,
-  .group-eighth-region .title-primary-text {
+  .title-primary-text {
     font-size: 35px;
   }
 }
 @media (max-width: 480px) {
-  .group-second-region .title-primary-text,
-  .group-third-region .title-primary-text,
-  .group-third-region-b .title-primary-text,
-  .group-fourth-region .title-primary-text,
-  .group-fifth-region .title-primary-text,
-  .group-sixth-region .title-primary-text,
-  .group-seventh-region .title-primary-text,
-  .group-eighth-region .title-primary-text {
+  .title-primary-text {
     font-size: 30px;
   }
 }
-.group-second-region .title-secondary-text,
-.group-third-region .title-secondary-text,
-.group-third-region-b .title-secondary-text,
-.group-fourth-region .title-secondary-text,
-.group-fifth-region .title-secondary-text,
-.group-sixth-region .title-secondary-text,
-.group-seventh-region .title-secondary-text,
-.group-eighth-region .title-secondary-text {
+.title-secondary-text {
   font-family: 'brannboll_smalregular';
   font-size: 30px;
   display: block;
@@ -7873,50 +7908,22 @@ body {
   margin-bottom: 20px;
 }
 @media (max-width: 1199px) {
-  .group-second-region .title-secondary-text,
-  .group-third-region .title-secondary-text,
-  .group-third-region-b .title-secondary-text,
-  .group-fourth-region .title-secondary-text,
-  .group-fifth-region .title-secondary-text,
-  .group-sixth-region .title-secondary-text,
-  .group-seventh-region .title-secondary-text,
-  .group-eighth-region .title-secondary-text {
+  .title-secondary-text {
     font-size: 25px;
   }
 }
 @media (max-width: 991px) {
-  .group-second-region .title-secondary-text,
-  .group-third-region .title-secondary-text,
-  .group-third-region-b .title-secondary-text,
-  .group-fourth-region .title-secondary-text,
-  .group-fifth-region .title-secondary-text,
-  .group-sixth-region .title-secondary-text,
-  .group-seventh-region .title-secondary-text,
-  .group-eighth-region .title-secondary-text {
+  .title-secondary-text {
     font-size: 20px;
   }
 }
 @media (max-width: 767px) {
-  .group-second-region .title-secondary-text,
-  .group-third-region .title-secondary-text,
-  .group-third-region-b .title-secondary-text,
-  .group-fourth-region .title-secondary-text,
-  .group-fifth-region .title-secondary-text,
-  .group-sixth-region .title-secondary-text,
-  .group-seventh-region .title-secondary-text,
-  .group-eighth-region .title-secondary-text {
+  .title-secondary-text {
     font-size: 18px;
   }
 }
 @media (max-width: 480px) {
-  .group-second-region .title-secondary-text,
-  .group-third-region .title-secondary-text,
-  .group-third-region-b .title-secondary-text,
-  .group-fourth-region .title-secondary-text,
-  .group-fifth-region .title-secondary-text,
-  .group-sixth-region .title-secondary-text,
-  .group-seventh-region .title-secondary-text,
-  .group-eighth-region .title-secondary-text {
+  .title-secondary-text {
     font-size: 16px;
   }
 }
