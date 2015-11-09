@@ -1,0 +1,25 @@
+#experiencia {
+	background: url('../assets/alimentacion.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  overflow: hidden;
+  min-height: 700px;
+  background-position-y: -50px;
+  @media (max-width: @screen-xs-max) {
+    background: none;
+    min-height: 1px
+  }
+  .group-eighth-region-content {
+    width: 80%;
+    margin: 0 auto;
+    @media (max-width: @screen-sm-max) {
+      width: 100%;
+    }
+    .field-item-experience {
+      .make-sm-column(4);
+      h4 {
+        color: #0F9146;
+      }
+    }
+  }
+}

@@ -1,0 +1,40 @@
+#recomendaciones {
+	background: url('../assets/recomendaciones.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  float: left;
+  .group-sixth-region-content {
+    .make-sm-column(6);
+    margin-top: 20px;
+    @media (max-width: @screen-sm-max) {
+      .make-sm-column(8);
+    }
+    .node-recomendacion.view-mode-full {
+      margin-bottom: 20px;
+    }
+    // .node-recomendacion.view-mode-full {
+    //   margin:0 auto;
+    //   border:1px solid blue;
+    //   overflow:hidden;
+    //   width: 100%;
+    //   & > div {
+    //     display:inline-block;
+    //     vertical-align:middle;
+    //     width:49%;
+    //   }
+    // }
+    .group-inner-left {
+      .make-xs-column(3);
+      img {
+        max-width: 100%;
+        height: auto;
+      }
+    }
+    .group-inner-right {
+      .make-xs-column(9);
+      h5 {
+        margin-top: 0;
+      }
+    }
+  }
+}
