@@ -7398,7 +7398,8 @@ body {
   background-color: #fff;
 }
 #catering-empresas {
-  margin-top: -20px;
+  margin-top: -55px;
+  padding-top: 35px;
 }
 #catering-empresas img,
 #catering-eventos img {
@@ -7589,6 +7590,8 @@ body {
   background-size: cover;
   background-repeat: no-repeat;
   min-height: 800px;
+  margin-top: -35px;
+  padding-top: 35px;
 }
 @media (max-width: 767px) {
   #alimentacion {
@@ -7638,7 +7641,7 @@ body {
   padding-left: 15px;
   padding-right: 15px;
 }
-#clientes {
+#clientes-content {
   background: url('../assets/clientes.jpg');
   background-size: cover;
   background-repeat: no-repeat;
@@ -7646,12 +7649,12 @@ body {
   width: 100%;
 }
 @media (max-width: 767px) {
-  #clientes {
+  #clientes-content {
     background-position: 90%;
     min-height: 1000px;
   }
 }
-#clientes .client-logos {
+#clientes-content .client-logos {
   margin-left: 50%;
   position: relative;
   min-height: 1px;
@@ -7659,17 +7662,17 @@ body {
   padding-right: 15px;
 }
 @media (min-width: 768px) {
-  #clientes .client-logos {
+  #clientes-content .client-logos {
     float: left;
     width: 41.66666667%;
   }
 }
 @media (max-width: 767px) {
-  #clientes .client-logos {
+  #clientes-content .client-logos {
     margin-left: 0;
   }
 }
-#clientes .node-clientes.view-mode-full {
+#clientes-content .node-clientes.view-mode-full {
   position: relative;
   min-height: 1px;
   padding-left: 15px;
@@ -7679,22 +7682,22 @@ body {
   text-align: center;
 }
 @media (min-width: 768px) {
-  #clientes .node-clientes.view-mode-full {
+  #clientes-content .node-clientes.view-mode-full {
     float: left;
     width: 50%;
   }
 }
-#clientes .node-clientes.view-mode-full img {
+#clientes-content .node-clientes.view-mode-full img {
   max-width: 100%;
   height: auto;
 }
 @media (max-width: 900px) {
-  #clientes .node-clientes.view-mode-full {
+  #clientes-content .node-clientes.view-mode-full {
     min-height: 70px;
   }
 }
 @media (max-width: 850px) {
-  #clientes .node-clientes.view-mode-full {
+  #clientes-content .node-clientes.view-mode-full {
     min-height: 64px;
   }
 }
@@ -7704,19 +7707,20 @@ body {
   text-transform: none;
   float: left;
   width: 100%;
-  margin-top: 35px;
+  padding-top: 70px;
+  margin-top: -35px;
 }
-#nuestro-equipo .group-seventh-region-content {
+#nuestro-equipo-content .group-seventh-region-content {
   overflow: hidden;
   width: 80%;
   margin: 0 auto;
 }
 @media (max-width: 991px) {
-  #nuestro-equipo .group-seventh-region-content {
+  #nuestro-equipo-content .group-seventh-region-content {
     width: 100%;
   }
 }
-#nuestro-equipo .group-seventh-region-content .field-item-our-team {
+#nuestro-equipo-content .group-seventh-region-content .field-item-our-team {
   position: relative;
   min-height: 1px;
   padding-left: 15px;
@@ -7724,17 +7728,17 @@ body {
   margin-top: 20px;
 }
 @media (min-width: 768px) {
-  #nuestro-equipo .group-seventh-region-content .field-item-our-team {
+  #nuestro-equipo-content .group-seventh-region-content .field-item-our-team {
     float: left;
     width: 25%;
   }
 }
-#nuestro-equipo .group-seventh-region-content .node-nuestro-equipo.view-mode-full {
+#nuestro-equipo-content .group-seventh-region-content .node-nuestro-equipo.view-mode-full {
   text-align: center;
   max-width: 150px;
   margin: 0 auto;
 }
-#nuestro-equipo .group-seventh-region-content .node-nuestro-equipo.view-mode-full h5 {
+#nuestro-equipo-content .group-seventh-region-content .node-nuestro-equipo.view-mode-full h5 {
   height: 40px;
   display: inline-block;
   position: relative;
@@ -7748,11 +7752,19 @@ body {
   text-align: center;
   color: #FFF;
 }
+.field-name-nuestro-equipo-anchor {
+  float: left;
+  color: #fff;
+  height: 0px;
+  margin-top: -35px;
+}
 #recomendaciones {
   background: url('../assets/recomendaciones.jpg');
   background-size: cover;
   background-repeat: no-repeat;
   float: left;
+  margin-top: -35px;
+  padding-top: 35px;
 }
 #recomendaciones .group-sixth-region-content {
   position: relative;
@@ -7806,6 +7818,36 @@ body {
 }
 #recomendaciones .group-sixth-region-content .group-inner-right h5 {
   margin-top: 0;
+}
+#contactenos {
+  margin-top: -35px;
+  padding-top: 35px;
+}
+#contactenos .title-primary-text h2 {
+  font-family: 'chelsearegular';
+  font-size: 70px;
+  text-transform: uppercase;
+  text-align: center;
+}
+@media (max-width: 1199px) {
+  #contactenos .title-primary-text h2 {
+    font-size: 60px;
+  }
+}
+@media (max-width: 991px) {
+  #contactenos .title-primary-text h2 {
+    font-size: 45px;
+  }
+}
+@media (max-width: 767px) {
+  #contactenos .title-primary-text h2 {
+    font-size: 35px;
+  }
+}
+@media (max-width: 480px) {
+  #contactenos .title-primary-text h2 {
+    font-size: 30px;
+  }
 }
 @font-face {
   font-family: 'chelsearegular';
@@ -8023,7 +8065,8 @@ body {
   .group-fifth-region,
   .group-sixth-region,
   .group-seventh-region,
-  .group-eighth-region {
+  .group-eighth-region,
+  .group-ninth-region {
     margin: 0 -15px 0 -16px;
   }
 }

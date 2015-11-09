@@ -24,13 +24,13 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/assets\/PIE-2.jpg": {
+	"\/assets\/recomendaciones.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"initialSize": 425292,
-		"inputAbbreviatedPath": "\/assets\/PIE-2.jpg",
-		"outputAbbreviatedPath": "\/assets\/PIE-2.jpg",
+		"inputAbbreviatedPath": "\/assets\/recomendaciones.jpg",
+		"outputAbbreviatedPath": "\/assets\/recomendaciones.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -4040,6 +4040,26 @@
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/less\/regions\/catering.less",
 		"outputAbbreviatedPath": "\/less\/css\/catering.css",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 0,
+		"relativeURLS": 0,
+		"shouldRunAutoprefixer": 0,
+		"shouldRunBless": 0,
+		"strictImports": 0,
+		"strictMath": 0,
+		"strictUnits": 0
+		},
+	"\/less\/regions\/contact_us.less": {
+		"allowInsecureImports": 0,
+		"createSourceMap": 0,
+		"disableJavascript": 0,
+		"fileType": 1,
+		"ieCompatibility": 1,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/less\/regions\/contact_us.less",
+		"outputAbbreviatedPath": "\/less\/css\/contact_us.css",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 0,
