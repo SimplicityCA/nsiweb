@@ -7376,7 +7376,8 @@ header#navbar a.logo.navbar-btn img {
   }
 }
 header#navbar a.logo.navbar-btn.scrolled-logo {
-  position: relative;
+  position: absolute;
+  top: 0;
 }
 header#navbar a.logo.navbar-btn.scrolled-logo img {
   width: 50px;
@@ -7498,6 +7499,7 @@ body {
   #experiencia {
     background: none;
     min-height: 1px;
+    margin-bottom: 60px;
   }
 }
 #experiencia .group-eighth-region-content {
