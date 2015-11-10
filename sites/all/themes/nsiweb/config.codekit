@@ -4603,6 +4603,28 @@
 		"outputStyle": 1,
 		"syntaxCheckerStyle": 1
 		},
+	"\/plugins\/min\/scroll_logo-min.js": {
+		"fileType": 64,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/plugins\/min\/scroll_logo-min.js",
+		"outputAbbreviatedPath": "\/plugins\/min\/min\/scroll_logo-min-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/plugins\/scroll_logo.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/plugins\/scroll_logo.js",
+		"outputAbbreviatedPath": "\/plugins\/min\/scroll_logo-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
 	"\/screenshot.png": {
 		"fileType": 32768,
 		"ignore": 0,

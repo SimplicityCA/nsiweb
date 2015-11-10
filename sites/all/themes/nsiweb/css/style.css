@@ -7360,8 +7360,10 @@ header#navbar a.logo.navbar-btn {
 header#navbar a.logo.navbar-btn img {
   width: 200px;
   height: auto;
-  z-index: 200;
+  z-index: 5;
   position: relative;
+  -webkit-transition: width 0.5s;
+  transition: width 0.5s;
 }
 @media (max-width: 1199px) {
   header#navbar a.logo.navbar-btn img {
@@ -7372,6 +7374,12 @@ header#navbar a.logo.navbar-btn img {
   header#navbar a.logo.navbar-btn img {
     width: 100px;
   }
+}
+header#navbar a.logo.navbar-btn.scrolled-logo {
+  position: relative;
+}
+header#navbar a.logo.navbar-btn.scrolled-logo img {
+  width: 50px;
 }
 header#navbar .navbar-collapse {
   background-color: #000;
@@ -7396,6 +7404,12 @@ body.navbar-is-fixed-top {
 }
 body {
   background-color: #fff;
+}
+.footer {
+  margin-top: 0;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  text-align: center;
 }
 #catering-empresas {
   margin-top: -55px;
@@ -7530,6 +7544,7 @@ body {
   font-family: 'chelsearegular';
   font-size: 120px;
   text-transform: uppercase;
+  font-weight: bold;
 }
 @media (max-width: 1199px) {
   .group-banner-region .group-banner-text .banner-primary-text {
@@ -7556,6 +7571,7 @@ body {
   font-size: 60px;
   display: block;
   text-align: center;
+  font-weight: bold;
 }
 @media (max-width: 1199px) {
   .group-banner-region .group-banner-text .banner-secondary-text {
@@ -7822,12 +7838,15 @@ body {
 #contactenos {
   margin-top: -35px;
   padding-top: 35px;
+  background-color: #000;
 }
 #contactenos .title-primary-text h2 {
   font-family: 'chelsearegular';
   font-size: 70px;
   text-transform: uppercase;
   text-align: center;
+  font-weight: bold;
+  color: #fff;
 }
 @media (max-width: 1199px) {
   #contactenos .title-primary-text h2 {
@@ -7848,6 +7867,63 @@ body {
   #contactenos .title-primary-text h2 {
     font-size: 30px;
   }
+}
+#contactenos .webform-client-form {
+  width: 80%;
+  margin: 0 auto;
+  text-align: center;
+  padding-bottom: 20px;
+}
+@media (max-width: 767px) {
+  #contactenos .webform-client-form {
+    width: 100%;
+  }
+}
+#contactenos .webform-client-form .webform-component {
+  margin: 15px 0;
+}
+#contactenos .webform-client-form .webform-component--nombre,
+#contactenos .webform-client-form .webform-component--telefono,
+#contactenos .webform-client-form .webform-component--email {
+  position: relative;
+  min-height: 1px;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+@media (min-width: 768px) {
+  #contactenos .webform-client-form .webform-component--nombre,
+  #contactenos .webform-client-form .webform-component--telefono,
+  #contactenos .webform-client-form .webform-component--email {
+    float: left;
+    width: 50%;
+  }
+}
+#contactenos .webform-client-form .webform-component--email input {
+  height: 34px;
+  padding: 6px 12px;
+  font-size: 14px;
+  line-height: 1.42857143;
+  color: #555555;
+  background-color: #fff;
+  background-image: none;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  width: 100%;
+}
+#contactenos .webform-client-form .webform-component--mensaje {
+  position: relative;
+  float: left;
+  width: 100%;
+  min-height: 1px;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+#contactenos .webform-client-form .captcha {
+  margin-left: 15px;
+  margin-right: 15px;
+}
+#contactenos .webform-client-form button.webform-submit {
+  width: 150px;
 }
 @font-face {
   font-family: 'chelsearegular';
@@ -7937,6 +8013,7 @@ body {
   font-family: 'chelsearegular';
   font-size: 120px;
   text-transform: uppercase;
+  font-weight: bold;
 }
 @media (max-width: 1199px) {
   .mixin-banner-primary-text {
@@ -7963,6 +8040,7 @@ body {
   font-size: 60px;
   display: block;
   text-align: center;
+  font-weight: bold;
 }
 @media (max-width: 1199px) {
   .mixin-banner-secondary-text {
@@ -7989,6 +8067,7 @@ body {
   font-size: 70px;
   text-transform: uppercase;
   text-align: center;
+  font-weight: bold;
 }
 @media (max-width: 1199px) {
   .mixin-region-primary-text {
@@ -8018,6 +8097,7 @@ body {
   color: #0F9146;
   margin-top: -5px;
   margin-bottom: 20px;
+  font-weight: bold;
 }
 @media (max-width: 1199px) {
   .mixin-region-secondary-text {
@@ -8075,6 +8155,7 @@ body {
   font-size: 70px;
   text-transform: uppercase;
   text-align: center;
+  font-weight: bold;
 }
 @media (max-width: 1199px) {
   .title-primary-text {
@@ -8104,6 +8185,7 @@ body {
   color: #0F9146;
   margin-top: -5px;
   margin-bottom: 20px;
+  font-weight: bold;
 }
 @media (max-width: 1199px) {
   .title-secondary-text {
@@ -8127,6 +8209,9 @@ body {
 }
 #servicio {
   display: none;
+}
+.alert.alert-block {
+  margin-top: 120px;
 }
 ul.tabs--primary.nav.nav-tabs {
   position: relative;

@@ -54,6 +54,7 @@ stylesheets[all][] = css/style.css
 
  scripts[] = 'plugins/jcarousel-0.2.9/lib/jquery.jcarousel.min.js'
  scripts[] = 'plugins/jquery.cycle/jquery.cycle.all.min.js'
+ scripts[] = 'plugins/scroll_logo.js'
 
 ; ; Disable BootstrapCDN if using Bootstrap source files in your sub-theme.
 ; settings[bootstrap_cdn] = ''

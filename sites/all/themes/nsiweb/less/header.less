@@ -17,13 +17,21 @@ header#navbar {
     img {
       width: 200px;
       height: auto;
-      z-index: 200;
+      z-index: 5;
       position: relative;
+      -webkit-transition: width 0.5s;
+      transition: width 0.5s;
       @media (max-width: @screen-md-max) {
         width: 150px;
       }
       @media (max-width: @screen-sm-max) {
         width: 100px;
+      }
+    }
+    &.scrolled-logo {
+      position: relative;
+      img {
+        width: 50px;
       }
     }
   }
