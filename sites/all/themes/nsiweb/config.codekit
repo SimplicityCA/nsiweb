@@ -3830,6 +3830,17 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
+	"\/favicons\/favicon-32x32.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 2204,
+		"inputAbbreviatedPath": "\/favicons\/favicon-32x32.png",
+		"outputAbbreviatedPath": "\/favicons\/favicon-32x32.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/less\/admin.less": {
 		"allowInsecureImports": 0,
 		"createSourceMap": 0,
