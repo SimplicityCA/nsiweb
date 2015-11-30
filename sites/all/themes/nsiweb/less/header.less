@@ -15,22 +15,25 @@ header#navbar {
       left: 0;
     }
     img {
-      width: 200px;
+      width: 220px;
       height: auto;
       z-index: 5;
       position: relative;
       -webkit-transition: width 0.5s;
       transition: width 0.5s;
       @media (max-width: @screen-md-max) {
-        width: 150px;
+        width: 165px;
       }
       @media (max-width: @screen-sm-max) {
-        width: 100px;
+        width: 110px;
       }
     }
     &.scrolled-logo {
       position: absolute;
       top: 0;
+      @media (max-width: @screen-sm-max) and (min-width: @screen-sm-min) {
+        left: 6px;
+      }
       img {
         width: 50px;
       }
@@ -57,4 +60,20 @@ header#navbar {
 }
 body.navbar-is-fixed-top {
 	padding-top: 49px !important;
+}
+.navbar-collapse.collapse.in,
+.navbar-collapse.collapsing {
+  @media (max-width:@screen-xs-max) {
+    margin-top: 50px;
+  }
+}
+.scrolled-navbar {
+  .navbar-collapse.collapse.in,
+  .navbar-collapse.collapsing {
+    margin-top: 0;
+  }
+}
+header#navbar.open-menu {
+  position: relative;
+  margin-top: -50px;
 }

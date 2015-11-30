@@ -3,8 +3,12 @@
   background-size: cover;
   background-repeat: no-repeat;
   float: left;
-  margin-top: -35px;
+  margin-top: -40px;
   padding-top: 35px;
+  @media (max-width: @screen-xs-max) {
+    background: none;
+    margin-top: 0;
+  }
   .group-sixth-region-content {
     .make-sm-column(6);
     margin-top: 20px;
@@ -13,6 +17,9 @@
     }
     .node-recomendacion.view-mode-full {
       margin-bottom: 20px;
+      &:first-child {
+        margin-top: 30px;
+      }
     }
     // .node-recomendacion.view-mode-full {
     //   margin:0 auto;
@@ -36,6 +43,11 @@
       .make-xs-column(9);
       h5 {
         margin-top: 0;
+        font-family: @font-family-dosis-bold;
+        font-size: 20px;
+        @media (max-width: @screen-xs-max) {
+          font-size: 18px;
+        }
       }
     }
   }
