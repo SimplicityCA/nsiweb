@@ -1,10 +1,18 @@
 #clientes {
   overflow: hidden;
-  padding-top: 110px;
-  margin-top: -50px;
-  // background: url('../assets/clientes.jpg');
-  // background-size: cover;
-  // background-repeat: no-repeat;
+  padding-top: 100px;
+  margin-top: -40px;
+  background: url('../assets/clients_background.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position-y: 50px;
+  @media (max-width: 1079px) {
+    background-size: contain;
+    background-position-y: 150px;
+  }
+  @media (max-width: @screen-xs-max) {
+    background: none;
+  }
   // float: left;
   // width: 100%;
   // @media (max-width: @screen-xs-max) {
@@ -50,4 +58,10 @@
   color: #E42127;
   text-transform: none;
   width: 100%;
+}
+.field-name-field-nuestros-clientes {
+  padding-right: 25%;
+  @media (max-width: @screen-xs-max) {
+    padding-right: 0;
+  }
 }

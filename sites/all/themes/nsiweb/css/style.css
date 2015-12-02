@@ -7445,16 +7445,14 @@ body {
   border-top: 1px dotted #555;
   padding-top: 10px;
 }
-#catering-empresas {
+#productos {
   margin-top: -30px;
   padding-top: 60px;
 }
-#catering-empresas,
-#catering-eventos {
+#productos {
   font-size: 18px;
 }
-#catering-empresas img,
-#catering-eventos img {
+#productos img {
   border: 10px solid #0F9146;
   border-radius: 50%;
   -webkit-border-radius: 50%;
@@ -7463,49 +7461,41 @@ body {
   height: auto;
 }
 @media (max-width: 767px) {
-  #catering-empresas img,
-  #catering-eventos img {
+  #productos img {
     border-width: 5px;
   }
 }
-#catering-empresas .field-name-field-catering-texto,
-#catering-eventos .field-name-field-catering-texto {
+#productos .field-name-field-catering-texto {
   max-width: 1100px;
   margin: 0 auto;
   padding: 10px 15px 40px 15px;
   font-size: 24px;
 }
 @media (max-width: 767px) {
-  #catering-empresas .field-name-field-catering-texto,
-  #catering-eventos .field-name-field-catering-texto {
+  #productos .field-name-field-catering-texto {
     font-size: 20px;
   }
 }
-#catering-empresas .field-name-field-menus-catering,
-#catering-eventos .field-name-field-menus-catering {
+#productos .field-name-field-menus-catering {
   max-width: 70%;
   margin: 0 auto;
   overflow: hidden;
 }
 @media (max-width: 767px) {
-  #catering-empresas .field-name-field-menus-catering,
-  #catering-eventos .field-name-field-menus-catering {
+  #productos .field-name-field-menus-catering {
     max-width: 80%;
   }
 }
 @media (max-width: 480px) {
-  #catering-empresas .field-name-field-menus-catering,
-  #catering-eventos .field-name-field-menus-catering {
+  #productos .field-name-field-menus-catering {
     max-width: 90%;
   }
 }
-#catering-empresas .node-menus-catering.view-mode-full,
-#catering-eventos .node-menus-catering.view-mode-full {
+#productos .node-menus-catering.view-mode-full {
   margin-bottom: 20px;
   padding: 0 20px;
 }
-#catering-empresas .node-menus-catering.view-mode-full .group-left,
-#catering-eventos .node-menus-catering.view-mode-full .group-left {
+#productos .node-menus-catering.view-mode-full .group-left {
   position: relative;
   float: left;
   width: 58.33333333%;
@@ -7513,8 +7503,7 @@ body {
   padding-left: 15px;
   padding-right: 15px;
 }
-#catering-empresas .node-menus-catering.view-mode-full .group-right,
-#catering-eventos .node-menus-catering.view-mode-full .group-right {
+#productos .node-menus-catering.view-mode-full .group-right {
   position: relative;
   float: left;
   width: 41.66666667%;
@@ -7522,23 +7511,19 @@ body {
   padding-left: 15px;
   padding-right: 15px;
 }
-#catering-empresas .node-menus-catering.view-mode-full:nth-child(odd) .group-left,
-#catering-eventos .node-menus-catering.view-mode-full:nth-child(odd) .group-left {
+#productos .node-menus-catering.view-mode-full:nth-child(odd) .group-left {
   float: right;
 }
-#catering-empresas .catering-menu-description,
-#catering-eventos .catering-menu-description {
+#productos .catering-menu-description {
   color: #0F9146;
 }
 @media (max-width: 767px) {
-  #catering-empresas .catering-menu-description,
-  #catering-eventos .catering-menu-description {
+  #productos .catering-menu-description {
     font-size: 12px;
   }
 }
 @media (max-width: 767px) {
-  #catering-empresas .catering-menu-title,
-  #catering-eventos .catering-menu-title {
+  #productos .catering-menu-title {
     font-size: 22px;
   }
 }
@@ -7673,7 +7658,7 @@ body {
   border: none;
   margin-bottom: 0;
 }
-#alimentacion {
+#por-que-nsi {
   background: url('../assets/alimentacion.jpg');
   background-size: cover;
   background-repeat: no-repeat;
@@ -7682,29 +7667,29 @@ body {
   padding-top: 60px;
 }
 @media (max-width: 767px) {
-  #alimentacion {
+  #por-que-nsi {
     background-position-y: 150px;
     min-height: 1400px;
   }
 }
 @media (max-width: 480px) {
-  #alimentacion {
+  #por-que-nsi {
     min-height: 1300px;
   }
 }
 @media (max-width: 435px) {
-  #alimentacion {
+  #por-que-nsi {
     background-position-y: 400px;
   }
 }
-#alimentacion .field-name-field-contenido-alimentacion {
+#por-que-nsi .field-name-field-contenido-alimentacion {
   overflow: hidden;
   max-width: 1100px;
   margin: 0 auto;
   padding-left: 15px;
   padding-right: 15px;
 }
-#alimentacion .node-feeding.view-mode-full {
+#por-que-nsi .node-feeding.view-mode-full {
   position: relative;
   min-height: 1px;
   padding-left: 15px;
@@ -7712,41 +7697,56 @@ body {
   margin-bottom: 30px;
 }
 @media (min-width: 768px) {
-  #alimentacion .node-feeding.view-mode-full {
+  #por-que-nsi .node-feeding.view-mode-full {
     float: left;
     width: 50%;
   }
 }
 @media (max-width: 767px) {
-  #alimentacion .node-feeding.view-mode-full {
+  #por-que-nsi .node-feeding.view-mode-full {
     margin-bottom: 30px;
   }
 }
-#alimentacion .node-feeding.view-mode-full .group-left {
+#por-que-nsi .node-feeding.view-mode-full .group-left {
   width: 100px;
 }
-#alimentacion .node-feeding.view-mode-full .group-left img {
+#por-que-nsi .node-feeding.view-mode-full .group-left img {
   width: 79px;
   height: 79px;
 }
-#alimentacion .node-feeding.view-mode-full .group-right {
+#por-que-nsi .node-feeding.view-mode-full .group-right {
   width: calc(100% - 100px);
 }
-#alimentacion .field-name-field-por-que-nsi-texto {
+#por-que-nsi .field-name-field-por-que-nsi-texto {
   max-width: 1100px;
   margin: 0 auto;
   padding: 25px 15px 40px 15px;
   font-size: 28px;
 }
 @media (max-width: 767px) {
-  #alimentacion .field-name-field-por-que-nsi-texto {
+  #por-que-nsi .field-name-field-por-que-nsi-texto {
     font-size: 20px;
   }
 }
 #clientes {
   overflow: hidden;
-  padding-top: 110px;
-  margin-top: -50px;
+  padding-top: 100px;
+  margin-top: -40px;
+  background: url('../assets/clients_background.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position-y: 50px;
+}
+@media (max-width: 1079px) {
+  #clientes {
+    background-size: contain;
+    background-position-y: 150px;
+  }
+}
+@media (max-width: 767px) {
+  #clientes {
+    background: none;
+  }
 }
 #clientes .client-logos {
   text-align: center;
@@ -7760,22 +7760,30 @@ body {
   text-transform: none;
   width: 100%;
 }
-#nuestro-equipo-content {
-  float: left;
-  background-color: #fff;
-  padding-top: 20px;
+.field-name-field-nuestros-clientes {
+  padding-right: 25%;
 }
-#nuestro-equipo-content .group-seventh-region-content {
+@media (max-width: 767px) {
+  .field-name-field-nuestros-clientes {
+    padding-right: 0;
+  }
+}
+#quienes-somos {
+  background-color: #fff;
+  padding-top: 60px;
+  margin-top: -40px;
+}
+#quienes-somos .group-seventh-region-content {
   overflow: hidden;
   width: 80%;
   margin: 0 auto;
 }
 @media (max-width: 991px) {
-  #nuestro-equipo-content .group-seventh-region-content {
+  #quienes-somos .group-seventh-region-content {
     width: 100%;
   }
 }
-#nuestro-equipo-content .group-seventh-region-content .field-item-our-team {
+#quienes-somos .group-seventh-region-content .field-item-our-team {
   position: relative;
   min-height: 1px;
   padding-left: 15px;
@@ -7783,17 +7791,17 @@ body {
   margin-top: 20px;
 }
 @media (min-width: 768px) {
-  #nuestro-equipo-content .group-seventh-region-content .field-item-our-team {
+  #quienes-somos .group-seventh-region-content .field-item-our-team {
     float: left;
     width: 25%;
   }
 }
-#nuestro-equipo-content .group-seventh-region-content .node-nuestro-equipo.view-mode-full {
+#quienes-somos .group-seventh-region-content .node-nuestro-equipo.view-mode-full {
   text-align: center;
   max-width: 150px;
   margin: 0 auto;
 }
-#nuestro-equipo-content .group-seventh-region-content .node-nuestro-equipo.view-mode-full h5 {
+#quienes-somos .group-seventh-region-content .node-nuestro-equipo.view-mode-full h5 {
   height: 40px;
   display: inline-block;
   position: relative;
@@ -7817,11 +7825,11 @@ body {
   max-width: 1100px;
   margin: 0 auto;
   padding: 25px 15px 20px 15px;
-  font-size: 24px;
+  font-size: 20px;
 }
 @media (max-width: 991px) {
   .field-name-field-quienes-somos-texto {
-    font-size: 20px;
+    font-size: 16px;
   }
 }
 .field-name-field-certificaciones img {
@@ -7834,7 +7842,7 @@ body {
   background-repeat: no-repeat;
   float: left;
   margin-top: -40px;
-  padding-top: 35px;
+  padding-top: 60px;
 }
 @media (max-width: 767px) {
   #recomendaciones {
@@ -7995,6 +8003,9 @@ body {
 }
 #contactenos .webform-client-form button.webform-submit {
   width: 150px;
+}
+#contactenos .webform-client-form fieldset.captcha {
+  width: auto;
 }
 @font-face {
   font-family: 'chelsearegular';
@@ -8296,6 +8307,10 @@ body {
 }
 strong {
   font-family: 'dosisbold';
+}
+img {
+  max-width: 100%;
+  height: auto;
 }
 ul.tabs--primary.nav.nav-tabs {
   position: relative;
