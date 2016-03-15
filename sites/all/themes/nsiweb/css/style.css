@@ -7598,7 +7598,7 @@ body {
   text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
 }
 .group-banner-region .group-banner-text .banner-primary-text {
-  font-family: 'chelsearegular';
+  font-family: 'Myriad Pro Regular';
   font-size: 120px;
   text-transform: uppercase;
   font-weight: bold;
@@ -7624,7 +7624,7 @@ body {
   }
 }
 .group-banner-region .group-banner-text .banner-secondary-text {
-  font-family: 'brannboll_smalregular';
+  font-family: 'Myriad Pro Regular';
   font-size: 60px;
   display: block;
   text-align: center;
@@ -7921,7 +7921,7 @@ body {
   width: -moz-available;
 }
 #contactenos .title-primary-text h2 {
-  font-family: 'chelsearegular';
+  font-family: 'Myriad Pro Regular';
   font-size: 70px;
   text-transform: uppercase;
   text-align: center;
@@ -8092,8 +8092,69 @@ body {
   font-weight: normal;
   font-style: normal;
 }
+@font-face {
+  font-family: 'Myriad Pro Regular';
+  font-style: normal;
+  font-weight: normal;
+  src: local('Myriad Pro Regular'), url('../less/fonts/myriadpro/MYRIADPRO-REGULAR.woff') format('woff');
+}
+@font-face {
+  font-family: 'Myriad Pro Condensed';
+  font-style: normal;
+  font-weight: normal;
+  src: local('Myriad Pro Condensed'), url('../less/fonts/myriadpro/MYRIADPRO-COND.woff') format('woff');
+}
+@font-face {
+  font-family: 'Myriad Pro Semibold Italic';
+  font-style: normal;
+  font-weight: normal;
+  src: local('Myriad Pro Semibold Italic'), url('../less/fonts/myriadpro/MYRIADPRO-SEMIBOLDIT.woff') format('woff');
+}
+@font-face {
+  font-family: 'Myriad Pro Semibold';
+  font-style: normal;
+  font-weight: normal;
+  src: local('Myriad Pro Semibold'), url('../less/fonts/myriadpro/MYRIADPRO-SEMIBOLD.woff') format('woff');
+}
+@font-face {
+  font-family: 'Myriad Pro Condensed Italic';
+  font-style: normal;
+  font-weight: normal;
+  src: local('Myriad Pro Condensed Italic'), url('../less/fonts/myriadpro/MYRIADPRO-CONDIT.woff') format('woff');
+}
+@font-face {
+  font-family: 'Myriad Pro Bold Italic';
+  font-style: normal;
+  font-weight: normal;
+  src: local('Myriad Pro Bold Italic'), url('../less/fonts/myriadpro/MYRIADPRO-BOLDIT.woff') format('woff');
+}
+@font-face {
+  font-family: 'Myriad Pro Bold Condensed Italic';
+  font-style: normal;
+  font-weight: normal;
+  src: local('Myriad Pro Bold Condensed Italic'), url('../less/fonts/myriadpro/MYRIADPRO-BOLDCONDIT.woff') format('woff');
+}
+@font-face {
+  font-family: 'Myriad Pro Bold Condensed';
+  font-style: normal;
+  font-weight: normal;
+  src: local('Myriad Pro Bold Condensed'), url('../less/fonts/myriadpro/MYRIADPRO-BOLDCOND.woff') format('woff');
+}
+@font-face {
+  font-family: 'Myriad Pro Bold';
+  font-style: normal;
+  font-weight: normal;
+  src: local('Myriad Pro Bold'), url('../less/fonts/myriadpro/MYRIADPRO-BOLD.woff') format('woff');
+}
+@font-face {
+  font-family: 'goboldregular';
+  src: url('../less/fonts/gobold/gobold_regular-webfont.eot');
+  src: url('../less/fonts/gobold/gobold_regular-webfont.eot?#iefix') format('embedded-opentype'), url('../less/fonts/gobold/gobold_regular-webfont.woff2') format('woff2'), url('../less/fonts/gobold/gobold_regular-webfont.woff') format('woff'), url('../less/fonts/gobold/gobold_regular-webfont.ttf') format('truetype'), url('../less/fonts/gobold/gobold_regular-webfont.svg#goboldregular') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
 .mixin-banner-primary-text {
-  font-family: 'chelsearegular';
+  font-family: 'Myriad Pro Regular';
   font-size: 120px;
   text-transform: uppercase;
   font-weight: bold;
@@ -8119,7 +8180,7 @@ body {
   }
 }
 .mixin-banner-secondary-text {
-  font-family: 'brannboll_smalregular';
+  font-family: 'Myriad Pro Regular';
   font-size: 60px;
   display: block;
   text-align: center;
@@ -8146,7 +8207,7 @@ body {
   }
 }
 .mixin-region-primary-text {
-  font-family: 'chelsearegular';
+  font-family: 'Myriad Pro Regular';
   font-size: 70px;
   text-transform: uppercase;
   text-align: center;
@@ -8173,7 +8234,7 @@ body {
   }
 }
 .mixin-region-secondary-text {
-  font-family: 'brannboll_smalregular';
+  font-family: 'Myriad Pro Regular';
   font-size: 30px;
   display: block;
   text-align: center;
@@ -8234,7 +8295,7 @@ body {
   }
 }
 .title-primary-text {
-  font-family: 'chelsearegular';
+  font-family: 'Myriad Pro Regular';
   font-size: 70px;
   text-transform: uppercase;
   text-align: center;
@@ -8261,7 +8322,7 @@ body {
   }
 }
 .title-secondary-text {
-  font-family: 'brannboll_smalregular';
+  font-family: 'Myriad Pro Regular';
   font-size: 30px;
   display: block;
   text-align: center;
