@@ -7690,17 +7690,7 @@ body {
   padding-right: 15px;
 }
 #por-que-nsi .node-feeding.view-mode-full {
-  position: relative;
-  min-height: 1px;
-  padding-left: 15px;
-  padding-right: 15px;
   margin-bottom: 30px;
-}
-@media (min-width: 768px) {
-  #por-que-nsi .node-feeding.view-mode-full {
-    float: left;
-    width: 50%;
-  }
 }
 @media (max-width: 767px) {
   #por-que-nsi .node-feeding.view-mode-full {
