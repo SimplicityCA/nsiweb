@@ -1,0 +1,79 @@
+<?php
+
+/**
+ * Implements hook_menu().
+ */
+function contact_map_menu() {
+  $items['contact_map/map/view'] = array(
+    'title' => '',
+    'page callback' => '_contact_map_map',
+    'access callback' => TRUE,
+    'type' => MENU_CALLBACK,
+  );
+  return $items;
+}
+
+/**
+ * Implements hook_block_info().
+ */
+function contact_map_block_info() {
+  $blocks['contact_map'] = array(
+    'info' => t('Mapa de contacto NSI'),
+    'cache' => DRUPAL_NO_CACHE
+  );
+
+  return $blocks;
+}
+
+/**
+ * Implements hook_block_view().
+ */
+function contact_map_block_view($delta = '') {
+  $block = array();
+
+  switch ($delta) {
+    case 'contact_map':
+      $block['subject'] = t('Mapa de contacto NSI');
+      $block['content'] = _contact_map_content();
+      break;
+  }
+  return $block;
+}
+
+function _contact_map_content() {
+  global $base_url;
+  $output = sprintf('
+        <iframe height="405" width="100%%" id="fresh-nation-map" frameborder="0"
+                src="%s">
+        </iframe>', $base_url.'/contact_map/map/view');
+
+  return $output;
+}
+
+/**
+ * Render the map
+ */
+function _contact_map_map() {
+  $logo = '/' . drupal_get_path('module', 'contact_map') . '/logo/nsi_marker.png';
+  print theme('contact_map', array(
+    'coordinates' => "0.0",
+    'logo' => $logo,
+  ));
+  return;
+}
+
+/**
+ * Implements hook_theme().
+ */
+function contact_map_theme($existing, $type, $theme, $path) {
+  return array(
+    'contact_map' => array(
+      'template'  => 'map',
+      'variables' => array(
+        'venues'  => NULL,
+        'page' => NULL
+      ),
+      'path' => drupal_get_path('module', 'contact_map') .'/theme'
+    ),
+  );
+}

@@ -1,0 +1,5 @@
+name = Contact Map
+description = Creates a block with a google map inside displaying business location
+core = 7.x
+package = Modules
+version = "7.x-1.1"
