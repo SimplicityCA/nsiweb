@@ -7875,6 +7875,43 @@ body {
   overflow: auto;
   width: -moz-available;
 }
+#contactenos .field-name-mapa-de-contacto {
+  position: relative;
+  min-height: 1px;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+@media (min-width: 992px) {
+  #contactenos .field-name-mapa-de-contacto {
+    float: left;
+    width: 58.33333333%;
+  }
+}
+#contactenos strong {
+  font-size: 20px;
+}
+#contactenos p {
+  margin-top: 2%;
+  margin-bottom: 2%;
+}
+@media (min-width: 992px) {
+  #contactenos p {
+    margin-top: 8%;
+    margin-bottom: 8%;
+  }
+}
+#contactenos .field-name-field-texto-cont-ctenos {
+  position: relative;
+  min-height: 1px;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+@media (min-width: 992px) {
+  #contactenos .field-name-field-texto-cont-ctenos {
+    float: left;
+    width: 25%;
+  }
+}
 @font-face {
   font-family: 'chelsearegular';
   src: url('../less/fonts/chelsea/chelsea-webfont.eot');
