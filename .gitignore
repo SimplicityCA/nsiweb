@@ -6,3 +6,5 @@ sites/*/files
 sites/*/private
 
 *.codekit
+
+sites/all/themes/nsiweb/css/style.css
