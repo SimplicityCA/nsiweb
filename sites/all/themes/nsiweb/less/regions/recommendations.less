@@ -18,7 +18,7 @@
     .node-recomendacion.view-mode-full {
       margin-bottom: 20px;
       &:first-child {
-        margin-top: 30px;
+       // margin-top: 30px;
       }
     }
     // .node-recomendacion.view-mode-full {
@@ -50,5 +50,27 @@
         }
       }
     }
+  }
+  .node-recomendacion{
+    .make-xs-column(6);
+       border-radius: 25px;
+    border: 2px solid #000000;
+    padding: 20px; 
+    width: 45%;
+    margin: 2%;
+    p{
+      font-size: 20px;
+    }
+    img{
+          margin-left: 30%;
+    }
+      @media (max-width: @screen-phone) {
+     img{ margin-left: 5%;
+     }
+    }
+     @media (max-width: @screen-xs-max) {
+          img{ margin-left: 5%;
+     }
+        }
   }
 }
