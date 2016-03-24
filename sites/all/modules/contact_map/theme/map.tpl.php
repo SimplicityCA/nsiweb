@@ -8,6 +8,7 @@
   <script src="https://maps.googleapis.com/maps/api/js?v=3.exp"></script>
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
   <script> 
+    var logo = <?php echo json_encode($logo); ?>;
     google.maps.event.addDomListener(window, 'load', init);
     function init() {
       var mapCenter = new google.maps.LatLng(-0.115553, -78.472696);
@@ -43,7 +44,7 @@
         map: map,
         // title: item.market,
         // id: item.cartodb_id,
-        // icon: items.marker,
+        icon: logo,
         // info: _marker_info_template(item),
       };
       var marker = new google.maps.Marker(markerInfo);
