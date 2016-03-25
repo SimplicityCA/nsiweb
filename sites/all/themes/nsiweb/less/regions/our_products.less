@@ -1,10 +1,6 @@
 #productos {
-  margin-top: -30px;
-  padding-top: 60px;
-  background-color: #dcd0ba;
-}
-#productos {
   font-size: 18px;
+  background-color: #565656;
 	img {
   	border-radius: 50%;
     -webkit-border-radius: 50%;
@@ -29,19 +25,53 @@
       font-weight: bold;
       font-size: 78px;
       text-transform: uppercase;
-      @media (max-width: @screen-phone) {
-        font-size: 34px;
+      @media (max-width: @screen-sm-max) {
+      font-size:50px;
+    }
+    @media (max-width: @screen-xs-max) {
+      font-size:40px;
+    }
+    }
+    p{
+      font-size: 28px;
+      line-height: 32px;
+      color:#4A4A4C;
+      @media (max-width: @screen-sm-max) {
+        font-size:24px;
+      }
+      @media (max-width: @screen-xs-max) {
+        font-size:22px;
       }
     }
     margin-bottom: 4%;
+    .make-md-column(6);
+    .make-md-column-offset(1);
+    @media (max-width: @screen-md-max) {
+      .make-md-column(12);
+      .make-md-column-offset(0);
+    }
   }
+  .label-above{
+    color:white;
+    font-family: @font-family-gobold-regular;
+    font-size:70px;
+    text-align:center;
+    text-transform: uppercase;
+    @media (max-width: @screen-sm-max) {
+      font-size:50px;
+    }
+    @media (max-width: @screen-xs-max) {
+      font-size:40px;
+    }
+  }
+
   .field-name-field-servicios-complementarios{
       height: 300px;
       background-color: #565656;
         @media (max-width: @screen-phone) {
         height: 700px;
       }
-        @media (max-width: @screen-xs-max) {
+      @media (max-width: @screen-xs-max) {
         height: 700px;
       }
       .field-label{
@@ -57,12 +87,34 @@
       }
     }
   }
-  .field-name-field-menus-catering {
-    max-width: 55%;
-    padding: 0 0 0 8%;
-    overflow: hidden;
+  .node-servicios-completementarios{
+    //.make-md-column(4);
+    width: ~"calc(100%/4.5)";
+    float:left;
+    background-color: #DCD0BA;
+    margin-left:2.2%;
+    text-align: center;
+    margin-bottom:30px;
+    @media (max-width: @screen-sm-max) {
+        width: ~"calc(100%/2.5)";
+        margin-left:7%;
+    }
     @media (max-width: @screen-xs-max) {
-      max-width: 80%;
+        width: 95%;
+        margin-left:2.5%;
+    }
+  }
+  .field-name-field-menus-catering {
+    background: url('../assets/imagen_chef.jpg');
+    background-color: #E5DECB;
+    background-size: cover;
+    padding-left:70px;
+    padding-right:70px;
+    padding-top:100px;
+    overflow: hidden;
+    @media (max-width: @screen-md-max) {
+      background: #E5DECB;
+      width:100%;
     }
   }
   .node-menus-catering.view-mode-full {
