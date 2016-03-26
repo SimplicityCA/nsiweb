@@ -6143,6 +6143,17 @@
 		"outputStyle": 1,
 		"syntaxCheckerStyle": 1
 		},
+	"\/sites\/all\/modules\/contact_map\/logo\/nsi_marker.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 2464,
+		"inputAbbreviatedPath": "\/sites\/all\/modules\/contact_map\/logo\/nsi_marker.png",
+		"outputAbbreviatedPath": "\/sites\/all\/modules\/contact_map\/logo\/nsi_marker.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/sites\/all\/modules\/contact_map\/theme\/map.tpl.php": {
 		"fileType": 8192,
 		"ignore": 0,
@@ -16621,6 +16632,17 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/sites\/all\/themes\/nsiweb\/assets\/imagen_chef.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 1.32039e+06,
+		"inputAbbreviatedPath": "\/sites\/all\/themes\/nsiweb\/assets\/imagen_chef.jpg",
+		"outputAbbreviatedPath": "\/sites\/all\/themes\/nsiweb\/assets\/imagen_chef.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/sites\/all\/themes\/nsiweb\/assets\/recomendaciones.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
@@ -20638,26 +20660,6 @@
 		"strictMath": 0,
 		"strictUnits": 0
 		},
-	"\/sites\/all\/themes\/nsiweb\/less\/regions\/catering.less": {
-		"allowInsecureImports": 0,
-		"createSourceMap": 0,
-		"disableJavascript": 0,
-		"fileType": 1,
-		"ieCompatibility": 1,
-		"ignore": 1,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/sites\/all\/themes\/nsiweb\/less\/regions\/catering.less",
-		"outputAbbreviatedPath": "\/sites\/all\/themes\/nsiweb\/less\/css\/catering.css",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"outputStyle": 0,
-		"relativeURLS": 0,
-		"shouldRunAutoprefixer": 0,
-		"shouldRunBless": 0,
-		"strictImports": 0,
-		"strictMath": 0,
-		"strictUnits": 0
-		},
 	"\/sites\/all\/themes\/nsiweb\/less\/regions\/contact_us.less": {
 		"allowInsecureImports": 0,
 		"createSourceMap": 0,
@@ -20748,6 +20750,26 @@
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/sites\/all\/themes\/nsiweb\/less\/regions\/our_clients.less",
 		"outputAbbreviatedPath": "\/sites\/all\/themes\/nsiweb\/less\/css\/our_clients.css",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 0,
+		"relativeURLS": 0,
+		"shouldRunAutoprefixer": 0,
+		"shouldRunBless": 0,
+		"strictImports": 0,
+		"strictMath": 0,
+		"strictUnits": 0
+		},
+	"\/sites\/all\/themes\/nsiweb\/less\/regions\/our_products.less": {
+		"allowInsecureImports": 0,
+		"createSourceMap": 0,
+		"disableJavascript": 0,
+		"fileType": 1,
+		"ieCompatibility": 1,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/sites\/all\/themes\/nsiweb\/less\/regions\/our_products.less",
+		"outputAbbreviatedPath": "\/sites\/all\/themes\/nsiweb\/less\/css\/our_products.css",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 0,
@@ -21468,28 +21490,6 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
-	"\/sites\/default\/files\/alimentacion\/icono1.png": {
-		"fileType": 32768,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 3315,
-		"inputAbbreviatedPath": "\/sites\/default\/files\/alimentacion\/icono1.png",
-		"outputAbbreviatedPath": "\/sites\/default\/files\/alimentacion\/icono1.png",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/sites\/default\/files\/alimentacion\/icono2.png": {
-		"fileType": 32768,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 3401,
-		"inputAbbreviatedPath": "\/sites\/default\/files\/alimentacion\/icono2.png",
-		"outputAbbreviatedPath": "\/sites\/default\/files\/alimentacion\/icono2.png",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
 	"\/sites\/default\/files\/alimentacion\/icono3.png": {
 		"fileType": 32768,
 		"ignore": 0,
@@ -21501,17 +21501,6 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/sites\/default\/files\/alimentacion\/icono4.png": {
-		"fileType": 32768,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 3391,
-		"inputAbbreviatedPath": "\/sites\/default\/files\/alimentacion\/icono4.png",
-		"outputAbbreviatedPath": "\/sites\/default\/files\/alimentacion\/icono4.png",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
 	"\/sites\/default\/files\/alimentacion\/icono5.png": {
 		"fileType": 32768,
 		"ignore": 0,
@@ -21519,6 +21508,61 @@
 		"initialSize": 3978,
 		"inputAbbreviatedPath": "\/sites\/default\/files\/alimentacion\/icono5.png",
 		"outputAbbreviatedPath": "\/sites\/default\/files\/alimentacion\/icono5.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/sites\/default\/files\/alimentacion\/iconos-01cp.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 113977,
+		"inputAbbreviatedPath": "\/sites\/default\/files\/alimentacion\/iconos-01cp.png",
+		"outputAbbreviatedPath": "\/sites\/default\/files\/alimentacion\/iconos-01cp.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/sites\/default\/files\/alimentacion\/iconos-02cp.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 116154,
+		"inputAbbreviatedPath": "\/sites\/default\/files\/alimentacion\/iconos-02cp.png",
+		"outputAbbreviatedPath": "\/sites\/default\/files\/alimentacion\/iconos-02cp.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/sites\/default\/files\/alimentacion\/iconos-03cp.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 116854,
+		"inputAbbreviatedPath": "\/sites\/default\/files\/alimentacion\/iconos-03cp.png",
+		"outputAbbreviatedPath": "\/sites\/default\/files\/alimentacion\/iconos-03cp.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/sites\/default\/files\/alimentacion\/porque_nsi_last.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 214748,
+		"inputAbbreviatedPath": "\/sites\/default\/files\/alimentacion\/porque_nsi_last.jpg",
+		"outputAbbreviatedPath": "\/sites\/default\/files\/alimentacion\/porque_nsi_last.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/sites\/default\/files\/alimentacion_imagen_2\/certificaciones.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 69963,
+		"inputAbbreviatedPath": "\/sites\/default\/files\/alimentacion_imagen_2\/certificaciones.png",
+		"outputAbbreviatedPath": "\/sites\/default\/files\/alimentacion_imagen_2\/certificaciones.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -21566,6 +21610,17 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
+		},
+	"\/sites\/default\/files\/languages\/es_OZyPFRXhAq8E4GphOE0BrGntSL8F7fCULHFpdODlNhc.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/sites\/default\/files\/languages\/es_OZyPFRXhAq8E4GphOE0BrGntSL8F7fCULHFpdODlNhc.js",
+		"outputAbbreviatedPath": "\/sites\/default\/files\/languages\/min\/es_OZyPFRXhAq8E4GphOE0BrGntSL8F7fCULHFpdODlNhc-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
 		},
 	"\/sites\/default\/files\/logos_clientes\/LOGOS-01.png": {
 		"fileType": 32768,
@@ -21710,6 +21765,83 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/sites\/default\/files\/quienes_somos_imagenes\/quienes_somos_item1.1.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 315049,
+		"inputAbbreviatedPath": "\/sites\/default\/files\/quienes_somos_imagenes\/quienes_somos_item1.1.jpg",
+		"outputAbbreviatedPath": "\/sites\/default\/files\/quienes_somos_imagenes\/quienes_somos_item1.1.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/sites\/default\/files\/quienes_somos_imagenes\/quienes_somos_item1.2.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 299327,
+		"inputAbbreviatedPath": "\/sites\/default\/files\/quienes_somos_imagenes\/quienes_somos_item1.2.jpg",
+		"outputAbbreviatedPath": "\/sites\/default\/files\/quienes_somos_imagenes\/quienes_somos_item1.2.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/sites\/default\/files\/quienes_somos_imagenes\/quienes_somos_item1.3.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 120205,
+		"inputAbbreviatedPath": "\/sites\/default\/files\/quienes_somos_imagenes\/quienes_somos_item1.3.jpg",
+		"outputAbbreviatedPath": "\/sites\/default\/files\/quienes_somos_imagenes\/quienes_somos_item1.3.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/sites\/default\/files\/quienes_somos_imagenes\/quienes_somos_item2.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 90965,
+		"inputAbbreviatedPath": "\/sites\/default\/files\/quienes_somos_imagenes\/quienes_somos_item2.jpg",
+		"outputAbbreviatedPath": "\/sites\/default\/files\/quienes_somos_imagenes\/quienes_somos_item2.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/sites\/default\/files\/quienes_somos_imagenes\/quienes_somos_item3.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 201600,
+		"inputAbbreviatedPath": "\/sites\/default\/files\/quienes_somos_imagenes\/quienes_somos_item3.jpg",
+		"outputAbbreviatedPath": "\/sites\/default\/files\/quienes_somos_imagenes\/quienes_somos_item3.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/sites\/default\/files\/quienes_somos_imagenes\/quienes_somos_item4.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 249615,
+		"inputAbbreviatedPath": "\/sites\/default\/files\/quienes_somos_imagenes\/quienes_somos_item4.jpg",
+		"outputAbbreviatedPath": "\/sites\/default\/files\/quienes_somos_imagenes\/quienes_somos_item4.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/sites\/default\/files\/recomendaciones\/banco_del_estado.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 6511,
+		"inputAbbreviatedPath": "\/sites\/default\/files\/recomendaciones\/banco_del_estado.png",
+		"outputAbbreviatedPath": "\/sites\/default\/files\/recomendaciones\/banco_del_estado.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/sites\/default\/files\/recomendaciones\/CLIENTES_0.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
@@ -21732,24 +21864,57 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/sites\/default\/files\/recomendaciones\/LOGOS-05.png": {
-		"fileType": 32768,
+	"\/sites\/default\/files\/recomendaciones\/smartpro_logo_resized.jpg": {
+		"fileType": 16384,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"initialSize": 15660,
-		"inputAbbreviatedPath": "\/sites\/default\/files\/recomendaciones\/LOGOS-05.png",
-		"outputAbbreviatedPath": "\/sites\/default\/files\/recomendaciones\/LOGOS-05.png",
+		"initialSize": 60651,
+		"inputAbbreviatedPath": "\/sites\/default\/files\/recomendaciones\/smartpro_logo_resized.jpg",
+		"outputAbbreviatedPath": "\/sites\/default\/files\/recomendaciones\/smartpro_logo_resized.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/sites\/default\/files\/recomendaciones\/LOGOS-08.png": {
+	"\/sites\/default\/files\/servicios_complementarios\/Mantenimiento de instalaciones.png": {
 		"fileType": 32768,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"initialSize": 10003,
-		"inputAbbreviatedPath": "\/sites\/default\/files\/recomendaciones\/LOGOS-08.png",
-		"outputAbbreviatedPath": "\/sites\/default\/files\/recomendaciones\/LOGOS-08.png",
+		"initialSize": 461274,
+		"inputAbbreviatedPath": "\/sites\/default\/files\/servicios_complementarios\/Mantenimiento de instalaciones.png",
+		"outputAbbreviatedPath": "\/sites\/default\/files\/servicios_complementarios\/Mantenimiento de instalaciones.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/sites\/default\/files\/servicios_complementarios\/Mantenimiento de instalaciones_0.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 461274,
+		"inputAbbreviatedPath": "\/sites\/default\/files\/servicios_complementarios\/Mantenimiento de instalaciones_0.png",
+		"outputAbbreviatedPath": "\/sites\/default\/files\/servicios_complementarios\/Mantenimiento de instalaciones_0.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/sites\/default\/files\/servicios_complementarios\/Mantenimiento de instalaciones_1.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 461274,
+		"inputAbbreviatedPath": "\/sites\/default\/files\/servicios_complementarios\/Mantenimiento de instalaciones_1.png",
+		"outputAbbreviatedPath": "\/sites\/default\/files\/servicios_complementarios\/Mantenimiento de instalaciones_1.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/sites\/default\/files\/servicios_complementarios\/Mantenimiento de instalaciones_2.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 461274,
+		"inputAbbreviatedPath": "\/sites\/default\/files\/servicios_complementarios\/Mantenimiento de instalaciones_2.png",
+		"outputAbbreviatedPath": "\/sites\/default\/files\/servicios_complementarios\/Mantenimiento de instalaciones_2.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -22117,134 +22282,79 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/sites\/default\/files\/styles\/recomendacion_foto_150x150\/public\/modules\/image\/sample.png": {
+	"\/sites\/default\/files\/styles\/porque_nsi_250x250\/public\/alimentacion\/iconos-01cp.png": {
 		"fileType": 32768,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"initialSize": 23835,
-		"inputAbbreviatedPath": "\/sites\/default\/files\/styles\/recomendacion_foto_150x150\/public\/modules\/image\/sample.png",
-		"outputAbbreviatedPath": "\/sites\/default\/files\/styles\/recomendacion_foto_150x150\/public\/modules\/image\/sample.png",
+		"initialSize": 21937,
+		"inputAbbreviatedPath": "\/sites\/default\/files\/styles\/porque_nsi_250x250\/public\/alimentacion\/iconos-01cp.png",
+		"outputAbbreviatedPath": "\/sites\/default\/files\/styles\/porque_nsi_250x250\/public\/alimentacion\/iconos-01cp.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/sites\/default\/files\/styles\/recomendacion_foto_150x150\/public\/nuestro_equipo\/PERSONAL.jpg": {
-		"fileType": 16384,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 3341,
-		"inputAbbreviatedPath": "\/sites\/default\/files\/styles\/recomendacion_foto_150x150\/public\/nuestro_equipo\/PERSONAL.jpg",
-		"outputAbbreviatedPath": "\/sites\/default\/files\/styles\/recomendacion_foto_150x150\/public\/nuestro_equipo\/PERSONAL.jpg",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/sites\/default\/files\/styles\/recomendacion_foto_150x150\/public\/nuestro_equipo\/PERSONAL_0.jpg": {
-		"fileType": 16384,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 3341,
-		"inputAbbreviatedPath": "\/sites\/default\/files\/styles\/recomendacion_foto_150x150\/public\/nuestro_equipo\/PERSONAL_0.jpg",
-		"outputAbbreviatedPath": "\/sites\/default\/files\/styles\/recomendacion_foto_150x150\/public\/nuestro_equipo\/PERSONAL_0.jpg",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/sites\/default\/files\/styles\/recomendacion_foto_150x150\/public\/nuestro_equipo\/PERSONAL_1.jpg": {
-		"fileType": 16384,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 3341,
-		"inputAbbreviatedPath": "\/sites\/default\/files\/styles\/recomendacion_foto_150x150\/public\/nuestro_equipo\/PERSONAL_1.jpg",
-		"outputAbbreviatedPath": "\/sites\/default\/files\/styles\/recomendacion_foto_150x150\/public\/nuestro_equipo\/PERSONAL_1.jpg",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/sites\/default\/files\/styles\/recomendacion_foto_150x150\/public\/nuestro_equipo\/PERSONAL_2.jpg": {
-		"fileType": 16384,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 3341,
-		"inputAbbreviatedPath": "\/sites\/default\/files\/styles\/recomendacion_foto_150x150\/public\/nuestro_equipo\/PERSONAL_2.jpg",
-		"outputAbbreviatedPath": "\/sites\/default\/files\/styles\/recomendacion_foto_150x150\/public\/nuestro_equipo\/PERSONAL_2.jpg",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/sites\/default\/files\/styles\/recomendacion_foto_150x150\/public\/nuestro_equipo\/PERSONAL_3.jpg": {
-		"fileType": 16384,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 3341,
-		"inputAbbreviatedPath": "\/sites\/default\/files\/styles\/recomendacion_foto_150x150\/public\/nuestro_equipo\/PERSONAL_3.jpg",
-		"outputAbbreviatedPath": "\/sites\/default\/files\/styles\/recomendacion_foto_150x150\/public\/nuestro_equipo\/PERSONAL_3.jpg",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/sites\/default\/files\/styles\/recomendacion_foto_150x150\/public\/recomendaciones\/CLIENTES_0.jpg": {
-		"fileType": 16384,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 3219,
-		"inputAbbreviatedPath": "\/sites\/default\/files\/styles\/recomendacion_foto_150x150\/public\/recomendaciones\/CLIENTES_0.jpg",
-		"outputAbbreviatedPath": "\/sites\/default\/files\/styles\/recomendacion_foto_150x150\/public\/recomendaciones\/CLIENTES_0.jpg",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/sites\/default\/files\/styles\/recomendacion_foto_150x150\/public\/recomendaciones\/CLIENTES_1.jpg": {
-		"fileType": 16384,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 3219,
-		"inputAbbreviatedPath": "\/sites\/default\/files\/styles\/recomendacion_foto_150x150\/public\/recomendaciones\/CLIENTES_1.jpg",
-		"outputAbbreviatedPath": "\/sites\/default\/files\/styles\/recomendacion_foto_150x150\/public\/recomendaciones\/CLIENTES_1.jpg",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/sites\/default\/files\/styles\/recomendacion_foto_150x150\/public\/recomendaciones\/LOGOS-05.png": {
+	"\/sites\/default\/files\/styles\/porque_nsi_250x250\/public\/alimentacion\/iconos-02cp.png": {
 		"fileType": 32768,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"initialSize": 8683,
-		"inputAbbreviatedPath": "\/sites\/default\/files\/styles\/recomendacion_foto_150x150\/public\/recomendaciones\/LOGOS-05.png",
-		"outputAbbreviatedPath": "\/sites\/default\/files\/styles\/recomendacion_foto_150x150\/public\/recomendaciones\/LOGOS-05.png",
+		"initialSize": 21146,
+		"inputAbbreviatedPath": "\/sites\/default\/files\/styles\/porque_nsi_250x250\/public\/alimentacion\/iconos-02cp.png",
+		"outputAbbreviatedPath": "\/sites\/default\/files\/styles\/porque_nsi_250x250\/public\/alimentacion\/iconos-02cp.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/sites\/default\/files\/styles\/recomendacion_foto_150x150\/public\/recomendaciones\/LOGOS-08.png": {
+	"\/sites\/default\/files\/styles\/porque_nsi_250x250\/public\/alimentacion\/iconos-03cp.png": {
 		"fileType": 32768,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"initialSize": 6205,
-		"inputAbbreviatedPath": "\/sites\/default\/files\/styles\/recomendacion_foto_150x150\/public\/recomendaciones\/LOGOS-08.png",
-		"outputAbbreviatedPath": "\/sites\/default\/files\/styles\/recomendacion_foto_150x150\/public\/recomendaciones\/LOGOS-08.png",
+		"initialSize": 22221,
+		"inputAbbreviatedPath": "\/sites\/default\/files\/styles\/porque_nsi_250x250\/public\/alimentacion\/iconos-03cp.png",
+		"outputAbbreviatedPath": "\/sites\/default\/files\/styles\/porque_nsi_250x250\/public\/alimentacion\/iconos-03cp.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/sites\/default\/files\/styles\/thumbnail\/public\/alimentacion\/icono1.png": {
+	"\/sites\/default\/files\/styles\/porque_nsi_250x250\/public\/modules\/image\/sample.png": {
 		"fileType": 32768,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"initialSize": 10115,
-		"inputAbbreviatedPath": "\/sites\/default\/files\/styles\/thumbnail\/public\/alimentacion\/icono1.png",
-		"outputAbbreviatedPath": "\/sites\/default\/files\/styles\/thumbnail\/public\/alimentacion\/icono1.png",
+		"initialSize": 72419,
+		"inputAbbreviatedPath": "\/sites\/default\/files\/styles\/porque_nsi_250x250\/public\/modules\/image\/sample.png",
+		"outputAbbreviatedPath": "\/sites\/default\/files\/styles\/porque_nsi_250x250\/public\/modules\/image\/sample.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/sites\/default\/files\/styles\/thumbnail\/public\/alimentacion\/icono2.png": {
+	"\/sites\/default\/files\/styles\/recomendacion_foto_180_width\/public\/modules\/image\/sample.png": {
 		"fileType": 32768,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"initialSize": 10710,
-		"inputAbbreviatedPath": "\/sites\/default\/files\/styles\/thumbnail\/public\/alimentacion\/icono2.png",
-		"outputAbbreviatedPath": "\/sites\/default\/files\/styles\/thumbnail\/public\/alimentacion\/icono2.png",
+		"initialSize": 29480,
+		"inputAbbreviatedPath": "\/sites\/default\/files\/styles\/recomendacion_foto_180_width\/public\/modules\/image\/sample.png",
+		"outputAbbreviatedPath": "\/sites\/default\/files\/styles\/recomendacion_foto_180_width\/public\/modules\/image\/sample.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/sites\/default\/files\/styles\/recomendacion_foto_180_width\/public\/recomendaciones\/banco_del_estado.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 5413,
+		"inputAbbreviatedPath": "\/sites\/default\/files\/styles\/recomendacion_foto_180_width\/public\/recomendaciones\/banco_del_estado.png",
+		"outputAbbreviatedPath": "\/sites\/default\/files\/styles\/recomendacion_foto_180_width\/public\/recomendaciones\/banco_del_estado.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/sites\/default\/files\/styles\/recomendacion_foto_180_width\/public\/recomendaciones\/smartpro_logo_resized.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 4122,
+		"inputAbbreviatedPath": "\/sites\/default\/files\/styles\/recomendacion_foto_180_width\/public\/recomendaciones\/smartpro_logo_resized.jpg",
+		"outputAbbreviatedPath": "\/sites\/default\/files\/styles\/recomendacion_foto_180_width\/public\/recomendaciones\/smartpro_logo_resized.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -22260,17 +22370,6 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/sites\/default\/files\/styles\/thumbnail\/public\/alimentacion\/icono4.png": {
-		"fileType": 32768,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 10887,
-		"inputAbbreviatedPath": "\/sites\/default\/files\/styles\/thumbnail\/public\/alimentacion\/icono4.png",
-		"outputAbbreviatedPath": "\/sites\/default\/files\/styles\/thumbnail\/public\/alimentacion\/icono4.png",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
 	"\/sites\/default\/files\/styles\/thumbnail\/public\/alimentacion\/icono5.png": {
 		"fileType": 32768,
 		"ignore": 0,
@@ -22278,6 +22377,61 @@
 		"initialSize": 11946,
 		"inputAbbreviatedPath": "\/sites\/default\/files\/styles\/thumbnail\/public\/alimentacion\/icono5.png",
 		"outputAbbreviatedPath": "\/sites\/default\/files\/styles\/thumbnail\/public\/alimentacion\/icono5.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/sites\/default\/files\/styles\/thumbnail\/public\/alimentacion\/iconos-01cp.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 6538,
+		"inputAbbreviatedPath": "\/sites\/default\/files\/styles\/thumbnail\/public\/alimentacion\/iconos-01cp.png",
+		"outputAbbreviatedPath": "\/sites\/default\/files\/styles\/thumbnail\/public\/alimentacion\/iconos-01cp.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/sites\/default\/files\/styles\/thumbnail\/public\/alimentacion\/iconos-02cp.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 6156,
+		"inputAbbreviatedPath": "\/sites\/default\/files\/styles\/thumbnail\/public\/alimentacion\/iconos-02cp.png",
+		"outputAbbreviatedPath": "\/sites\/default\/files\/styles\/thumbnail\/public\/alimentacion\/iconos-02cp.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/sites\/default\/files\/styles\/thumbnail\/public\/alimentacion\/iconos-03cp.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 6662,
+		"inputAbbreviatedPath": "\/sites\/default\/files\/styles\/thumbnail\/public\/alimentacion\/iconos-03cp.png",
+		"outputAbbreviatedPath": "\/sites\/default\/files\/styles\/thumbnail\/public\/alimentacion\/iconos-03cp.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/sites\/default\/files\/styles\/thumbnail\/public\/alimentacion\/porque_nsi_last.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 2099,
+		"inputAbbreviatedPath": "\/sites\/default\/files\/styles\/thumbnail\/public\/alimentacion\/porque_nsi_last.jpg",
+		"outputAbbreviatedPath": "\/sites\/default\/files\/styles\/thumbnail\/public\/alimentacion\/porque_nsi_last.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/sites\/default\/files\/styles\/thumbnail\/public\/alimentacion_imagen_2\/certificaciones.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 2219,
+		"inputAbbreviatedPath": "\/sites\/default\/files\/styles\/thumbnail\/public\/alimentacion_imagen_2\/certificaciones.png",
+		"outputAbbreviatedPath": "\/sites\/default\/files\/styles\/thumbnail\/public\/alimentacion_imagen_2\/certificaciones.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -22469,6 +22623,83 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/sites\/default\/files\/styles\/thumbnail\/public\/quienes_somos_imagenes\/quienes_somos_item1.1.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 3278,
+		"inputAbbreviatedPath": "\/sites\/default\/files\/styles\/thumbnail\/public\/quienes_somos_imagenes\/quienes_somos_item1.1.jpg",
+		"outputAbbreviatedPath": "\/sites\/default\/files\/styles\/thumbnail\/public\/quienes_somos_imagenes\/quienes_somos_item1.1.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/sites\/default\/files\/styles\/thumbnail\/public\/quienes_somos_imagenes\/quienes_somos_item1.2.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 3283,
+		"inputAbbreviatedPath": "\/sites\/default\/files\/styles\/thumbnail\/public\/quienes_somos_imagenes\/quienes_somos_item1.2.jpg",
+		"outputAbbreviatedPath": "\/sites\/default\/files\/styles\/thumbnail\/public\/quienes_somos_imagenes\/quienes_somos_item1.2.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/sites\/default\/files\/styles\/thumbnail\/public\/quienes_somos_imagenes\/quienes_somos_item1.3.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 3205,
+		"inputAbbreviatedPath": "\/sites\/default\/files\/styles\/thumbnail\/public\/quienes_somos_imagenes\/quienes_somos_item1.3.jpg",
+		"outputAbbreviatedPath": "\/sites\/default\/files\/styles\/thumbnail\/public\/quienes_somos_imagenes\/quienes_somos_item1.3.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/sites\/default\/files\/styles\/thumbnail\/public\/quienes_somos_imagenes\/quienes_somos_item2.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 2670,
+		"inputAbbreviatedPath": "\/sites\/default\/files\/styles\/thumbnail\/public\/quienes_somos_imagenes\/quienes_somos_item2.jpg",
+		"outputAbbreviatedPath": "\/sites\/default\/files\/styles\/thumbnail\/public\/quienes_somos_imagenes\/quienes_somos_item2.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/sites\/default\/files\/styles\/thumbnail\/public\/quienes_somos_imagenes\/quienes_somos_item3.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 2917,
+		"inputAbbreviatedPath": "\/sites\/default\/files\/styles\/thumbnail\/public\/quienes_somos_imagenes\/quienes_somos_item3.jpg",
+		"outputAbbreviatedPath": "\/sites\/default\/files\/styles\/thumbnail\/public\/quienes_somos_imagenes\/quienes_somos_item3.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/sites\/default\/files\/styles\/thumbnail\/public\/quienes_somos_imagenes\/quienes_somos_item4.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 3201,
+		"inputAbbreviatedPath": "\/sites\/default\/files\/styles\/thumbnail\/public\/quienes_somos_imagenes\/quienes_somos_item4.jpg",
+		"outputAbbreviatedPath": "\/sites\/default\/files\/styles\/thumbnail\/public\/quienes_somos_imagenes\/quienes_somos_item4.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/sites\/default\/files\/styles\/thumbnail\/public\/recomendaciones\/banco_del_estado.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 3683,
+		"inputAbbreviatedPath": "\/sites\/default\/files\/styles\/thumbnail\/public\/recomendaciones\/banco_del_estado.png",
+		"outputAbbreviatedPath": "\/sites\/default\/files\/styles\/thumbnail\/public\/recomendaciones\/banco_del_estado.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/sites\/default\/files\/styles\/thumbnail\/public\/recomendaciones\/CLIENTES_0.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
@@ -22491,24 +22722,57 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/sites\/default\/files\/styles\/thumbnail\/public\/recomendaciones\/LOGOS-05.png": {
-		"fileType": 32768,
+	"\/sites\/default\/files\/styles\/thumbnail\/public\/recomendaciones\/smartpro_logo_resized.jpg": {
+		"fileType": 16384,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"initialSize": 4350,
-		"inputAbbreviatedPath": "\/sites\/default\/files\/styles\/thumbnail\/public\/recomendaciones\/LOGOS-05.png",
-		"outputAbbreviatedPath": "\/sites\/default\/files\/styles\/thumbnail\/public\/recomendaciones\/LOGOS-05.png",
+		"initialSize": 2063,
+		"inputAbbreviatedPath": "\/sites\/default\/files\/styles\/thumbnail\/public\/recomendaciones\/smartpro_logo_resized.jpg",
+		"outputAbbreviatedPath": "\/sites\/default\/files\/styles\/thumbnail\/public\/recomendaciones\/smartpro_logo_resized.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/sites\/default\/files\/styles\/thumbnail\/public\/recomendaciones\/LOGOS-08.png": {
+	"\/sites\/default\/files\/styles\/thumbnail\/public\/servicios_complementarios\/Mantenimiento de instalaciones.png": {
 		"fileType": 32768,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"initialSize": 3176,
-		"inputAbbreviatedPath": "\/sites\/default\/files\/styles\/thumbnail\/public\/recomendaciones\/LOGOS-08.png",
-		"outputAbbreviatedPath": "\/sites\/default\/files\/styles\/thumbnail\/public\/recomendaciones\/LOGOS-08.png",
+		"initialSize": 18261,
+		"inputAbbreviatedPath": "\/sites\/default\/files\/styles\/thumbnail\/public\/servicios_complementarios\/Mantenimiento de instalaciones.png",
+		"outputAbbreviatedPath": "\/sites\/default\/files\/styles\/thumbnail\/public\/servicios_complementarios\/Mantenimiento de instalaciones.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/sites\/default\/files\/styles\/thumbnail\/public\/servicios_complementarios\/Mantenimiento de instalaciones_0.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 18261,
+		"inputAbbreviatedPath": "\/sites\/default\/files\/styles\/thumbnail\/public\/servicios_complementarios\/Mantenimiento de instalaciones_0.png",
+		"outputAbbreviatedPath": "\/sites\/default\/files\/styles\/thumbnail\/public\/servicios_complementarios\/Mantenimiento de instalaciones_0.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/sites\/default\/files\/styles\/thumbnail\/public\/servicios_complementarios\/Mantenimiento de instalaciones_1.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 18261,
+		"inputAbbreviatedPath": "\/sites\/default\/files\/styles\/thumbnail\/public\/servicios_complementarios\/Mantenimiento de instalaciones_1.png",
+		"outputAbbreviatedPath": "\/sites\/default\/files\/styles\/thumbnail\/public\/servicios_complementarios\/Mantenimiento de instalaciones_1.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/sites\/default\/files\/styles\/thumbnail\/public\/servicios_complementarios\/Mantenimiento de instalaciones_2.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 18261,
+		"inputAbbreviatedPath": "\/sites\/default\/files\/styles\/thumbnail\/public\/servicios_complementarios\/Mantenimiento de instalaciones_2.png",
+		"outputAbbreviatedPath": "\/sites\/default\/files\/styles\/thumbnail\/public\/servicios_complementarios\/Mantenimiento de instalaciones_2.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
