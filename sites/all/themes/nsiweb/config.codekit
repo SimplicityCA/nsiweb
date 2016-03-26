@@ -35,6 +35,17 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/assets\/imagen_chef.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 1.32039e+06,
+		"inputAbbreviatedPath": "\/assets\/imagen_chef.jpg",
+		"outputAbbreviatedPath": "\/assets\/imagen_chef.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/assets\/recomendaciones.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
