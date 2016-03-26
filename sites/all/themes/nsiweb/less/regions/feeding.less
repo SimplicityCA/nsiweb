@@ -23,14 +23,12 @@
   }
   @media (max-width: @screen-xs-max) {
     background-position-y: 150px;
-    min-height: 1400px;
     h4 {
       font-size: 30px;
       text-align:center;
     }
   }
   @media (max-width: @screen-xs) {
-    min-height: 1300px;
     h4 {
       font-size: 30px;
     }
@@ -69,7 +67,6 @@
       // .make-xs-column(3);
       width: 230px;
       margin-right:135px;
-      
       img {
         width: 230px;
         height: 230px;
@@ -90,46 +87,53 @@
           width: 100px;
           height: 100px;
         }
-
       }
-        
       @media (max-width: @screen-md-max) {
-          width: 230px;
-          margin-right:135px;
-        }
-        @media (max-width: @screen-sm-max) {
-          width: 190px;
-          margin-right:100px;
-        }
-        @media (max-width: @screen-xs-max) {
-          width:100%;
-          text-align:center;
-        }
-        @media (max-width: @screen-xs) {
-          width: 100%;
-        }
-
-
+        width: 230px;
+        margin-right:135px;
+      }
+      @media (max-width: @screen-sm-max) {
+        width: 190px;
+        margin-right:100px;
+      }
+      @media (max-width: @screen-xs-max) {
+        width:100%;
+        text-align:center;
+      }
+      @media (max-width: @screen-xs) {
+        width: 100%;
+      }
     }
     .group-right {
       width: ~"calc(100% - 365px)";
       @media (max-width: @screen-md-max) {
-          width: ~"calc(100% - 365px)";
-        }
-        @media (max-width: @screen-sm-max) {
-          width: ~"calc(100% - 290px)";
-        }
-        @media (max-width: @screen-xs-max) {
-          width: 100%;
-        }
-        @media (max-width: @screen-xs) {
-          width: 100%;
-        }
+        width: ~"calc(100% - 365px)";
+      }
+      @media (max-width: @screen-sm-max) {
+        width: ~"calc(100% - 290px)";
+      }
+      @media (max-width: @screen-xs-max) {
+        width: 100%;
+      }
+      @media (max-width: @screen-xs) {
+        width: 100%;
+      }
       // .make-xs-column(9);
       p{
         font-size:24px;
+        @media (max-width: @screen-md-max) {
+          font-size:21px;
+        }
+        @media (max-width: @screen-sm-max) {
+          font-size:18px;
+        }
+        @media (max-width: @screen-xs-max) {
+          font-size:16px;
+        }
+        @media (max-width: @screen-xs) {
+          font-size:16px;
+        }
       }
-
     }
   }
   .field-name-field-por-que-nsi-texto {
@@ -142,88 +146,68 @@
     }
   }
   .field-name-field-por-que-nsi-ultimo-item{
-      color: #565656;
-      padding-left: 100px;
-      padding-right:100px;
-      .group-left {
-          // .make-xs-column(3);
-          width: ~"calc(100% - 335px)";
-          @media (max-width: @screen-md-max) {
-            width: ~"calc(100% - 295px)";
+    color: #565656;
+    padding-left: 100px;
+    padding-right:100px;
+    margin-bottom:50px;
+    .group-left {
+      // .make-xs-column(3);
+      width: ~"calc(100% - 335px)";
+      @media (max-width: @screen-xs-max) {
+        width:100%;
+      }
+      .field-type-text-with-summary{
+         margin-bottom:50px;
+         margin-top:43px;
+         height:165px;
+         max-height:165px;
+         @media (max-width: @screen-md-max) {
+            margin-bottom:50px;
+            margin-top:68px;
           }
-          @media (max-width: @screen-sm-max) {
-            width: ~"calc(100% - 255px)";
+         @media (max-width: @screen-sm-max) {
+            margin-bottom:42px;
+            margin-top:42px;
           }
-          @media (max-width: @screen-xs-max) {
-            width: ~"calc(100% - 230px)";
-          }
-          @media (max-width: @screen-xs) {
-              width:100%;
-            }
-          .field-type-text-with-summary{
-             margin-bottom:70px;
-             margin-top:70px;
-             @media (max-width: @screen-sm-max) {
-                margin-bottom:50px;
-                margin-top:50px;
-              }
-               @media (max-width: @screen-xs-max) {
-                margin-bottom:40px;
-                margin-top:40px;
-              }
-              @media (max-width: @screen-xs) {
-                margin-bottom:35px;
-                margin-top:35px;
-              }
-          }
-          p{
-            font-size:24px;
-            @media (max-width: @screen-md-max) {
-              font-size:21px;
-            }
-            @media (max-width: @screen-sm-max) {
-              font-size:18px;
-            }
-            @media (max-width: @screen-xs-max) {
-              font-size:16px;
-            }
-            @media (max-width: @screen-xs) {
-              font-size:16px;
-            }
-          }
-        }
-        .group-right {
-          width: 320px;
-          margin-left:15px;
-          // .make-xs-column(9);
-          @media (max-width: @screen-md-max) {
-            width: 280px;
-          }
-          @media (max-width: @screen-sm-max) {
-            width: 240px;
-          }
-          @media (max-width: @screen-xs-max) {
-            width: 220px;
-          margin-left:10px;
-          }
-          @media (max-width: @screen-xs) {
-              width:100%;
-              margin-left:0;
-            }
-        }
-
+      }
+      p{
+        font-size:23px;
+        line-height: 27px;
         @media (max-width: @screen-md-max) {
-          padding-left: 50px;
-          padding-right:50px;
+          font-size:21px;
         }
         @media (max-width: @screen-sm-max) {
-          padding-left: 20px;
-          padding-right:20px;
+          font-size:18px;
         }
         @media (max-width: @screen-xs-max) {
-          padding-left: 10px;
-          padding-right:10px;
+          font-size:16px;
         }
-
+        @media (max-width: @screen-xs) {
+          font-size:16px;
+        }
+      }
+    }
+    .group-right {
+      width: 320px;
+      height:auto;
+      margin-left:15px;
+      // .make-xs-column(9);
+      
+      @media (max-width: @screen-xs-max) {
+          display:none;
+      }
+    }
+    @media (max-width: @screen-md-max) {
+      padding-left: 70px;
+      padding-right:70px;
+    }
+    @media (max-width: @screen-sm-max) {
+      padding-left: 40px;
+      padding-right:40px;
+    }
+    @media (max-width: @screen-xs-max) {
+      padding-left: 10px;
+      padding-right:10px;
+    }
   }
 }
