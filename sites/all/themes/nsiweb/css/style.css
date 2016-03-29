@@ -8154,19 +8154,19 @@ body {
 }
 @media (max-width: 1199px) {
   #quienes-somos .quienes-somos-item-1 .field-name-field-imagen-del-item .field-items .field-item {
-    width: 34.2%;
+    width: 33.2%;
     height: 174px;
   }
 }
 @media (max-width: 991px) {
   #quienes-somos .quienes-somos-item-1 .field-name-field-imagen-del-item .field-items .field-item {
-    width: 34.2%;
+    width: 33.2%;
     height: 159px;
   }
 }
 @media (max-width: 767px) {
   #quienes-somos .quienes-somos-item-1 .field-name-field-imagen-del-item .field-items .field-item {
-    width: 34.2%;
+    width: 33.2%;
     height: 97px;
   }
 }
@@ -8200,7 +8200,6 @@ body {
   -webkit-clip-path: polygon(12% 0, 100% 0, 88% 100%, 0% 100%);
   -moz-clip-path: polygon(12% 0, 100% 0, 88% 100%, 0% 100%);
   clip-path: polygon(12% 0, 100% 0, 88% 100%, 0% 100%);
-  margin-left: -15px;
 }
 @media (max-width: 767px) {
   #quienes-somos .quienes-somos-item-1 .field-name-field-imagen-del-item .field-items .field-item:nth-child(2) {
@@ -8214,7 +8213,6 @@ body {
   -webkit-clip-path: polygon(12% 0, 100% 0, 100% 100%, 0% 100%);
   -moz-clip-path: polygon(12% 0, 100% 0, 100% 100%, 0% 100%);
   clip-path: polygon(12% 0, 100% 0, 100% 100%, 0% 100%);
-  margin-left: -15px;
 }
 @media (max-width: 767px) {
   #quienes-somos .quienes-somos-item-1 .field-name-field-imagen-del-item .field-items .field-item:nth-child(3) {
@@ -8397,7 +8395,7 @@ body {
 }
 @media (max-width: 767px) {
   #recomendaciones .group-sixth-region-content .node-recomendacion.view-mode-full {
-    height: 920px;
+    width: 96%;
   }
 }
 #recomendaciones .group-sixth-region-content .group-inner-left {
