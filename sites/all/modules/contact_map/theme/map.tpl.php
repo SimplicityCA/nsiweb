@@ -1,7 +1,7 @@
 <head>
   <title>Contact Map</title>
 </head>
-<body class="contact_map">
+<body class="contact_map" style="margin: 0;">
   <script type="text/x-custom-template" id="mapmain">
   </script>
   <div id="map" style="width: 100%; height: 100%;"></div>
