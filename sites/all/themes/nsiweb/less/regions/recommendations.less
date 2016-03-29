@@ -17,6 +17,13 @@
     // }
     .node-recomendacion.view-mode-full {
       margin-bottom: 20px;
+      height: 310px;
+          @media (max-width: @screen-sm-max) {
+        height: 400px;
+    }
+    @media (max-width: @screen-xs-max) {
+      height: 920px;
+    }
       &:first-child {
        // margin-top: 30px;
       }
@@ -63,6 +70,7 @@
     }
     img{
           margin-left: 30%;
+          margin-bottom: 2%;
     }
       @media (max-width: @screen-phone) {
      img{ margin-left: 5%;
