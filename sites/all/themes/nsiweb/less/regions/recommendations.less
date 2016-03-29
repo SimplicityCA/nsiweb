@@ -17,9 +17,12 @@
     // }
     .node-recomendacion.view-mode-full {
       margin-bottom: 20px;
-      height: 310px;
+      height: 300px;
+      @media (max-width: @screen-md-max) {
+        height: 320px;
+      }
       @media (max-width: @screen-sm-max) {
-        height: 400px;
+        height: auto;
       }
       @media (max-width: @screen-xs-max) {
         width: 96%;
@@ -65,22 +68,19 @@
     padding: 20px; 
     width: 45%;
     margin: 2%;
+    text-align:center;
     p{
       font-size: 20px;
+      text-align:left;
     }
     img{
-      margin-left: 30%;
-      margin-bottom: 2%;
+      margin-bottom: 15px;
     }
-    @media (max-width: @screen-phone) {
-      img{ 
-        margin-left: 5%;
+    @media (max-width: @screen-md-max) {
+      p{ 
+        font-size: 19px;
       }
     }
-    @media (max-width: @screen-xs-max) {
-      img{ 
-        margin-left: 5%;
-      }  
-    }
+    
   }
 }
