@@ -33,18 +33,18 @@
       margin-top:20px;
       .field-items{
         .field-item{
-          width:34.2%;
+          width:33.2%;
           height:200px;
           @media (max-width: @screen-md-max) {
-            width:34.2%;
+            width:33.2%;
             height:174px;
           }
           @media (max-width: @screen-sm-max) {
-            width:34.2%;
+            width:33.2%;
             height:159px;
           }
           @media (max-width: @screen-xs-max) {
-            width:34.2%;
+            width:33.2%;
             height:97px;
           }
           @media (max-width: @screen-xs) {
@@ -58,9 +58,11 @@
           margin: 0 auto;
           overflow: hidden;
           -webkit-clip-path: polygon(0 0, 100% 0, 88% 100%, 0% 100%);
+          -moz-clip-path: polygon(0 0, 100% 0, 88% 100%, 0% 100%);
           clip-path: polygon(0 0, 100% 0, 88% 100%, 0% 100%);
           @media (max-width: @screen-xs-max) {
             -webkit-clip-path: polygon(0 0, 100% 0, 100% 100%, 0% 100%);
+            -moz-clip-path: polygon(0 0, 100% 0, 100% 100%, 0% 100%);
             clip-path: polygon(0 0, 100% 0, 100% 100%, 0% 100%);
             width:100%;
             height:auto;
@@ -72,8 +74,9 @@
           margin: 0 auto;
           overflow: hidden;
           -webkit-clip-path: polygon(12% 0, 100% 0, 88% 100%, 0% 100%);
+           -moz-clip-path: polygon(12% 0, 100% 0, 88% 100%, 0% 100%);
           clip-path: polygon(12% 0, 100% 0, 88% 100%, 0% 100%);
-          margin-left:-15px;
+          //margin-left:-15px;
           @media (max-width: @screen-xs-max) {
             display:none;
           }
@@ -84,8 +87,9 @@
           margin: 0 auto;
           overflow: hidden;
           -webkit-clip-path: polygon(12% 0, 100% 0, 100% 100%, 0% 100%);
+          -moz-clip-path: polygon(12% 0, 100% 0, 100% 100%, 0% 100%);
           clip-path: polygon(12% 0, 100% 0, 100% 100%, 0% 100%);
-          margin-left:-15px;
+          //margin-left:-15px;
           @media (max-width: @screen-xs-max) {
             display:none;
           }
@@ -99,7 +103,7 @@
       margin-top:50px;
     }
     @media (max-width: @screen-xs-max) {
-       margin-top:30px;
+      margin-top:30px;
     }
     .group-right{
       padding-left:50px;
@@ -198,7 +202,7 @@
   margin: 0 auto;
   padding: 25px 15px 20px 15px;
   font-size: 20px;
-   @media (max-width: @screen-sm-max) {
+  @media (max-width: @screen-sm-max) {
     font-size: 16px;
   }
 }
