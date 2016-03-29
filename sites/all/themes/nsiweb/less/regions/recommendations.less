@@ -18,12 +18,12 @@
     .node-recomendacion.view-mode-full {
       margin-bottom: 20px;
       height: 310px;
-          @media (max-width: @screen-sm-max) {
+      @media (max-width: @screen-sm-max) {
         height: 400px;
-    }
-    @media (max-width: @screen-xs-max) {
-      height: 920px;
-    }
+      }
+      @media (max-width: @screen-xs-max) {
+        height: 920px;
+      }
       &:first-child {
        // margin-top: 30px;
       }
@@ -60,7 +60,7 @@
   }
   .node-recomendacion{
     .make-xs-column(6);
-       border-radius: 25px;
+    border-radius: 25px;
     border: 2px solid #000000;
     padding: 20px; 
     width: 45%;
@@ -69,16 +69,18 @@
       font-size: 20px;
     }
     img{
-          margin-left: 30%;
-          margin-bottom: 2%;
+      margin-left: 30%;
+      margin-bottom: 2%;
     }
-      @media (max-width: @screen-phone) {
-     img{ margin-left: 5%;
-     }
+    @media (max-width: @screen-phone) {
+      img{ 
+        margin-left: 5%;
+      }
     }
-     @media (max-width: @screen-xs-max) {
-          img{ margin-left: 5%;
-     }
-        }
+    @media (max-width: @screen-xs-max) {
+      img{ 
+        margin-left: 5%;
+      }  
+    }
   }
 }
