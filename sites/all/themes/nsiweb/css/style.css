@@ -7608,6 +7608,22 @@ body {
     margin-left: 2.5%;
   }
 }
+#productos .node-servicios-completementarios .field-name-title {
+  min-height: 58px;
+}
+@media (max-width: 991px) {
+  #productos .node-servicios-completementarios .field-name-title {
+    min-height: 40px;
+  }
+}
+#productos .node-servicios-completementarios .field-name-title .field-item {
+  padding-top: 10px;
+}
+@media (max-width: 991px) {
+  #productos .node-servicios-completementarios .field-name-title .field-item {
+    padding-top: 0px;
+  }
+}
 #productos .field-name-field-menus-catering {
   background: url('../assets/imagen_chef.jpg');
   background-color: #E5DECB;
@@ -8133,7 +8149,7 @@ body {
   margin-top: 20px;
 }
 #quienes-somos .quienes-somos-item-1 .field-name-field-imagen-del-item .field-items .field-item {
-  width: 34.2%;
+  width: 33.2%;
   height: 200px;
 }
 @media (max-width: 1199px) {
@@ -8165,11 +8181,13 @@ body {
   margin: 0 auto;
   overflow: hidden;
   -webkit-clip-path: polygon(0 0, 100% 0, 88% 100%, 0% 100%);
+  -moz-clip-path: polygon(0 0, 100% 0, 88% 100%, 0% 100%);
   clip-path: polygon(0 0, 100% 0, 88% 100%, 0% 100%);
 }
 @media (max-width: 767px) {
   #quienes-somos .quienes-somos-item-1 .field-name-field-imagen-del-item .field-items .field-item:nth-child(1) {
     -webkit-clip-path: polygon(0 0, 100% 0, 100% 100%, 0% 100%);
+    -moz-clip-path: polygon(0 0, 100% 0, 100% 100%, 0% 100%);
     clip-path: polygon(0 0, 100% 0, 100% 100%, 0% 100%);
     width: 100%;
     height: auto;
@@ -8180,6 +8198,7 @@ body {
   margin: 0 auto;
   overflow: hidden;
   -webkit-clip-path: polygon(12% 0, 100% 0, 88% 100%, 0% 100%);
+  -moz-clip-path: polygon(12% 0, 100% 0, 88% 100%, 0% 100%);
   clip-path: polygon(12% 0, 100% 0, 88% 100%, 0% 100%);
   margin-left: -15px;
 }
@@ -8193,6 +8212,7 @@ body {
   margin: 0 auto;
   overflow: hidden;
   -webkit-clip-path: polygon(12% 0, 100% 0, 100% 100%, 0% 100%);
+  -moz-clip-path: polygon(12% 0, 100% 0, 100% 100%, 0% 100%);
   clip-path: polygon(12% 0, 100% 0, 100% 100%, 0% 100%);
   margin-left: -15px;
 }
@@ -8368,6 +8388,17 @@ body {
 }
 #recomendaciones .group-sixth-region-content .node-recomendacion.view-mode-full {
   margin-bottom: 20px;
+  height: 310px;
+}
+@media (max-width: 991px) {
+  #recomendaciones .group-sixth-region-content .node-recomendacion.view-mode-full {
+    height: 400px;
+  }
+}
+@media (max-width: 767px) {
+  #recomendaciones .group-sixth-region-content .node-recomendacion.view-mode-full {
+    height: 920px;
+  }
 }
 #recomendaciones .group-sixth-region-content .group-inner-left {
   position: relative;
@@ -8417,6 +8448,7 @@ body {
 }
 #recomendaciones .node-recomendacion img {
   margin-left: 30%;
+  margin-bottom: 2%;
 }
 @media (max-width: 480px) {
   #recomendaciones .node-recomendacion img {
