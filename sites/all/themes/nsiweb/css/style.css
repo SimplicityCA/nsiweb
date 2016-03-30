@@ -7451,7 +7451,8 @@ body {
 }
 #productos {
   font-size: 18px;
-  background-color: #565656;
+  padding-top: 50px;
+  margin-top: -60px;
 }
 #productos img {
   max-width: 100%;
@@ -7555,6 +7556,8 @@ body {
 #productos .group-third-region-lower {
   overflow: hidden;
   background-color: #565656;
+  padding-top: 50px;
+  padding-bottom: 50px;
 }
 #productos .field-name-field-servicios-complementarios {
   height: 300px;
@@ -7640,6 +7643,12 @@ body {
   #productos .field-name-field-menus-catering {
     background: #E5DECB;
     width: 100%;
+  }
+}
+@media (max-width: 991px) {
+  #productos .field-name-field-menus-catering {
+    padding-left: 15px;
+    padding-right: 15px;
   }
 }
 #productos .node-menus-catering.view-mode-full {
@@ -7810,7 +7819,8 @@ body {
   background-size: cover;
   background-repeat: no-repeat;
   min-height: 1200px;
-  margin-top: -35px;
+  margin-top: -66px;
+  padding-top: 50px;
 }
 #por-que-nsi h4 {
   font-size: 60px;
@@ -7853,7 +7863,7 @@ body {
   overflow: hidden;
   max-width: 100%;
   margin: 0 auto;
-  padding-top: 20px;
+  padding-top: 55px;
   padding-left: 100px;
   padding-right: 100px;
   background: #565656;
@@ -7995,7 +8005,8 @@ body {
   color: #565656;
   padding-left: 100px;
   padding-right: 100px;
-  margin-bottom: 50px;
+  margin-bottom: 70px;
+  padding-top: 50px;
 }
 #por-que-nsi .field-name-field-por-que-nsi-ultimo-item .group-left {
   width: calc(100% - 335px);
@@ -8079,7 +8090,7 @@ body {
   overflow: hidden;
   width: 100%;
   padding-top: 100px;
-  margin-top: -40px;
+  margin-top: -48px;
   background-size: cover;
   background-repeat: no-repeat;
   background-position-y: 50px;
@@ -8377,6 +8388,7 @@ body {
   float: left;
   margin-top: -40px;
   padding-top: 60px;
+  padding-bottom: 60px;
 }
 @media (max-width: 767px) {
   #recomendaciones {
