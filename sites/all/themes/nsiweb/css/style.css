@@ -8466,6 +8466,8 @@ body {
   margin-top: -35px;
   padding-top: 35px;
   overflow: auto;
+  float: left;
+  width: 100%;
   width: -moz-available;
 }
 #contactenos .field-name-mapa-de-contacto {
