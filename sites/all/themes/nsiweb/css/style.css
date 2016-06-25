@@ -7451,7 +7451,7 @@ body {
 }
 #productos {
   font-size: 18px;
-  padding-top: 50px;
+  padding-top: 20px;
   margin-top: -60px;
 }
 #productos img {
@@ -8474,50 +8474,52 @@ body {
     font-size: 19px;
   }
 }
-#contactenos {
-  margin-top: -35px;
-  padding-top: 35px;
-  overflow: auto;
-  float: left;
-  width: 100%;
-  width: -moz-available;
+body.node-type-contactenos .main-container {
+  margin-top: 40px;
 }
-#contactenos .field-name-mapa-de-contacto {
+body.node-type-contactenos .node-contactenos.view-mode-full {
+  padding-bottom: 60px;
+}
+body.node-type-contactenos .field-name-mapa-de-contacto {
   position: relative;
   min-height: 1px;
   padding-left: 15px;
   padding-right: 15px;
 }
 @media (min-width: 992px) {
-  #contactenos .field-name-mapa-de-contacto {
+  body.node-type-contactenos .field-name-mapa-de-contacto {
     float: left;
     width: 58.33333333%;
   }
 }
-#contactenos strong {
+body.node-type-contactenos strong {
   font-size: 20px;
 }
-#contactenos p {
+body.node-type-contactenos p {
   margin-top: 2%;
   margin-bottom: 2%;
 }
 @media (min-width: 992px) {
-  #contactenos p {
+  body.node-type-contactenos p {
     margin-top: 8%;
     margin-bottom: 8%;
   }
 }
-#contactenos .field-name-field-texto-cont-ctenos {
+body.node-type-contactenos .field-name-body {
   position: relative;
   min-height: 1px;
   padding-left: 15px;
   padding-right: 15px;
 }
 @media (min-width: 992px) {
-  #contactenos .field-name-field-texto-cont-ctenos {
+  body.node-type-contactenos .field-name-body {
     float: left;
     width: 25%;
   }
+}
+body.node-type-contactenos footer.footer .block-block p {
+  margin-top: 30px;
+  margin-bottom: 30px;
 }
 @font-face {
   font-family: 'chelsearegular';
