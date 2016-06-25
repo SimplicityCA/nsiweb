@@ -77,3 +77,13 @@ function contact_map_theme($existing, $type, $theme, $path) {
     ),
   );
 }
+
+/**
+ * Implements template_preprocess_menu_tree(&$variables).
+ */
+function contact_map_preprocess_menu_tree(&$variables) {
+  if (!drupal_is_front_page()) {
+    global $base_url;
+    $variables['tree'] = str_replace('href="#', 'href="'.$base_url.'#', $variables['tree']);
+  }
+}
