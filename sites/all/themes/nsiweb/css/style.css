@@ -8485,6 +8485,7 @@ body.node-type-contactenos .field-name-mapa-de-contacto {
   min-height: 1px;
   padding-left: 15px;
   padding-right: 15px;
+  width: 90%;
 }
 @media (min-width: 992px) {
   body.node-type-contactenos .field-name-mapa-de-contacto {
